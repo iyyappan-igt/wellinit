@@ -1,38 +1,158 @@
-.App {
-  text-align: center;
+@font-face{
+  font-family: 'Font-Regular';
+  src: url('../public/fonts/MYRIADPRO-REGULAR.otf');
+}
+@font-face{
+  font-family: 'Font-Bold';
+  src: url('../public/fonts/MYRIADPRO-BOLD.otf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body , html{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Font-Regular' , sans-serif !important;
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.brand-logo img{
+  width: 195px;
+  height: 82px;
+  object-fit: cover;
+}
+.nav-items h5{
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0px;
+}
+.nav-links{
+  gap: 80px;
+}
+.nav-links .nav-items:nth-child(6){
+  background-color: #00A9E5;
+  padding: 12px 20px;
+  /* border-radius: 5px;e  */
+  color: #ffff;
+}
+.navsec{
+  padding: 25px 0px;
+}
+.banner-place2{
+  background-image: url('../public/assets/banner1.png');
+  width: 100%;
+  height: 669px;
+  background-size: cover;
+}
+.banner-place1{
+  background-image: url('../public/assets/banner2.png');
+  width: 50%;
+  height: 669px;
+  background-size: cover;
+}
+.banner-content h3{ 
+  font-size: 48px;
+  font-family: 'Font-Bold' , sans-serif !important;
+  font-weight: 700;
+}
+.banner-content p{
+  font-size: 22px;
+  font-weight: 400;
+  margin: 25px 0px;
+} 
+.banner-content button , .banner-content button:hover{
+  padding: 9px 33px;
+  font-size: 16px;
+  background-color: #00A9E5;
+  color: #ffff;
+}
+.banner-content{
+  padding: 70px 20px;
+  left: 135px;
+  top: 90px;
+}
+.ex-nums span{
+  font-size: 64px;
+  font-weight: 700;
+  color: #00A9E5;
+}
+.ex-name h6{
+  font-size: 22px;
+  font-weight: 600;
+}
+.expsec{
+  background-color: #DBF6FF;
+  padding: 34px 0px;
+}
+.sub-img{
+  top: 70px;
+  width: 268px;
+  left: 60px;
+}
+.choose-title h2 , .service-title h2{
+  font-family: 'Font-Bold' , sans-serif;
+  font-size: 48px;
+}
+.serv-img img{
+  width: 445px;
+  border-radius: 20px;
+}
+.service-sec{
+  background-color: #DEFFFB;
+  padding: 50px;
+}
+.serv-box{
+  background-color:  #25CEBA;
+  margin: 30px 0px;
+  border-radius: 25px 25px 10px 10px;
+}
+.serv-name h5{
+  font-size: 25px;
+  font-weight: 600;
+  padding: 20px 0px;
+}
+.explore-btn button , .explore-btn button:hover{
+ background-color: #000;
+ color: #ffff;
+  padding: 9px 30px;
+  margin-top: 40px;
+}
+.frame-img{
+  top: 0px;
+  right: 0%;
+}
+.frame-img img{
+  width: 900px;
+  height: 612px;
+}
+.intro-content h5{
+  font-size: 22px;
+  font-weight: 600;
+  color: #25CEBA;
+}
+.intro-content h2{
+  font-size: 46px;
+  font-family: 'Font-Bold' , sans-serif;
+  margin-top: 15px;
+}
+.intro-content p{
+  font-size: 20px;
+  margin: 30px 0px;
+}
+.intro-content{
+  padding: 70px 90px;
+}
+.ch-box .icon img{
+  width: 88px;
+}
+.ch-name h6{
+  font-size: 22px;
+  font-weight: 600;
+}
+.choose-sec{
+padding: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon-name h5{
+  font-size: 24px;
+  font-weight: 600;
 }
