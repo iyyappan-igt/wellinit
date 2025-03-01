@@ -8,7 +8,7 @@ function Ourservice() {
                 <div className="service-title text-center">
                     <h2>{Service.title}</h2>
                 </div>
-                <div className="row mt-5">
+                <div className="row mt-4">
                     {
                         Service.services.map((data , i)=>{
                           return(

@@ -88,7 +88,7 @@ body , html{
   width: 268px;
   left: 60px;
 }
-.choose-title h2 , .service-title h2{
+.choose-title h2 , .service-title h2 , .customer-say h2 {
   font-family: 'Font-Bold' , sans-serif;
   font-size: 48px;
 }
@@ -98,15 +98,15 @@ body , html{
 }
 .service-sec{
   background-color: #DEFFFB;
-  padding: 50px;
+  padding: 60px 0px;
 }
 .serv-box{
   background-color:  #25CEBA;
-  margin: 30px 0px;
   border-radius: 25px 25px 10px 10px;
+  margin: 30px 0px;
 }
 .serv-name h5{
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 600;
   padding: 20px 0px;
 }
@@ -114,7 +114,7 @@ body , html{
  background-color: #000;
  color: #ffff;
   padding: 9px 30px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 .frame-img{
   top: 0px;
@@ -134,6 +134,7 @@ body , html{
   font-family: 'Font-Bold' , sans-serif;
   margin-top: 15px;
 }
+
 .intro-content p{
   font-size: 20px;
   margin: 30px 0px;
@@ -141,18 +142,95 @@ body , html{
 .intro-content{
   padding: 70px 90px;
 }
-.ch-box .icon img{
-  width: 88px;
+.sc-count span{
+  font-size: 57px;
+  font-weight: 600;
 }
-.ch-name h6{
+.sc-name h5{
   font-size: 22px;
   font-weight: 600;
 }
-.choose-sec{
-padding: 50px;
+.success-box{
+  background-color:#18B9A6;
+  color: #ffff;
+  width: 339px;
+  border-radius: 26px;
+  padding: 22px 20px;
 }
-
-.icon-name h5{
-  font-size: 24px;
+.success-sec{
+  padding: 80px 0px;
+  background-color: #FBFBFB;
+}
+.swiper-slide{
+  width: 358px !important;
+  margin-right: 10px;
+  height: 401px !important;
+  
+}
+.review-box{
+  padding: 50px 30px;
+  border: 2px solid #6FD9FE;
+  border-radius: 36px;
+  background-color: #ffff;
+}
+.customer-say{
+  margin: 45px 0px;
+}
+.secure-sec{
+  padding: 50px 0px;
+  background-color: #000;
+}
+.secure-img img{
+  width: 478px;
+}
+.secure-title h2{
+  font-size: 49px;
   font-weight: 600;
+}
+.secure-title p{
+  font-size: 24px;
+  font-weight: 400;
+}
+.left-rect{
+  top: 0px;
+  width: 257px;
+}
+.right-rect{
+  bottom: 0px;
+  right: 0px;
+  width: 257px;
+}
+.frame-icon{
+  width: 192px;
+  height: 215px;
+  top: 0px;
+  right: 17%;
+}
+.cst-name h5{
+  font-size: 20px;
+  font-family: 'Font-Bold' , sans-serif;
+  margin: 0px;
+}
+.cst-city p{
+  font-size: 16px;
+  color: #AFAFAF;
+  font-weight: 400;
+  margin: 10px 0px;
+}
+.cst-city{
+  width: 195px;
+}
+.cst-review h5{
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+.cst-star{
+  color: #099834;
+  font-size: 20px;
+}
+.cst-desc p{
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px 0px;
 }

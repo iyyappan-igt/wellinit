@@ -5,6 +5,8 @@ import Experience from '../Components/Experience'
 import Introduction from '../Components/Introduction'
 import Whychoose from '../Components/Whychoose'
 import Ourservice from '../Components/Ourservice'
+import Success from '../Components/Success'
+import Security from '../Components/Security'
 
 function Home() {
     return (
@@ -32,6 +34,14 @@ function Home() {
 
             <section>
                 <Ourservice/>
+            </section>
+
+            <section>
+                <Success/>
+            </section>
+
+            <section>
+                <Security/>
             </section>
 
         </section>

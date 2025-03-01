@@ -9,7 +9,7 @@ function Experience() {
         <div className="row">
           {Expdta.data.map((data , i) => {
             return (
-              <div className="col-lg-3" key={i}>
+              <div className="col-lg-3 d-flex justify-content-center" key={i}>
                 <div className="ex-box">
                   <div className="ex-nums">
                     <CountUp duration={3} start={0} end={data.points} decimals={data.id == '3' ? 1 : 0} />
