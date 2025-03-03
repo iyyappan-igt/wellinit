@@ -7,6 +7,9 @@ import Whychoose from '../Components/Whychoose'
 import Ourservice from '../Components/Ourservice'
 import Success from '../Components/Success'
 import Security from '../Components/Security'
+import Blogs from '../Components/Blogs'
+import Letstalk from '../Components/Letstalk'
+import Footer from '../Components/Footer'
 
 function Home() {
     return (
@@ -42,6 +45,18 @@ function Home() {
 
             <section>
                 <Security/>
+            </section>
+
+            <section>
+                <Blogs/>
+            </section>
+
+            <section>
+                <Letstalk/>
+            </section>
+
+            <section>
+                <Footer/>
             </section>
 
         </section>

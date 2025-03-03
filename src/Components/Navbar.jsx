@@ -22,7 +22,7 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-            <div className="nav-links d-flex align-items-center ">
+            <div className="nav-links willenet d-lg-flex d-block align-items-center ">
                 {
                     Nav.titles.map((data , i)=>{
                         return(

@@ -7,14 +7,14 @@ function Banner() {
             <div className="container-fluid postion-relative p-0">
             <div className="banner-place1 position-absolute"></div>
                 <div className="row">
-                    <div className="col-lg-4 position-relative">
+                    <div className="col-lg-4 col-12 position-relative">
                         <div className="banner-content position-absolute w-100">
                             <h3>{Homebanner.title}</h3>
                             <p>{Homebanner.description}</p>
                             <button className='btn'>{Homebanner.button}</button>
                         </div>
                     </div>
-                    <div className="col-lg-8">
+                    <div className="col-lg-8 col-12">
                     <div className="banner-place2">
                             
                             </div>
