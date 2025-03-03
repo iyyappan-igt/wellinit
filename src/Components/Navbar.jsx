@@ -37,8 +37,8 @@ function Navbar() {
         </div>
       </nav>
         </div>
-    
-    </section>
+
+   </section>
   );
 }
 

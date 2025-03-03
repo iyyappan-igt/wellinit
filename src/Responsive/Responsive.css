@@ -3,7 +3,7 @@
         margin: 13px 0px;
     }
     .brand-logo img{
-        width: 100px;
+        width: 113px;
         object-fit: contain;
     }
     .banner-place2 {
@@ -18,7 +18,7 @@
         background-size: cover;
     }
     .banner-content {
-        padding: 50px;
+        padding: 50px 30px;
         left: 0px;
         top: 0px;
         text-align: center;
@@ -34,5 +34,237 @@
     }
     .banner-content button, .banner-content button:hover {
         padding: 9px 72px;
+        width: 100%;
     }
+    .ex-name h6 {
+        font-size: 12px;
+        font-weight: 600;
+        margin: 0px;
+    }
+    .ex-nums span {
+        font-size: 42px;
+        font-weight: 700;
+        color: #00A9E5;
+    }
+    .ex-box{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-color: #DBF6FF;
+                width: 100%;
+                padding: 20px 20px;
+                margin: 15px 0px;
+    }
+    .expsec{
+        background-color: white;
+        padding: 30px;
+    }
+    .intro-content , .success-sec , .choose-sec ,  .service-sec , .blog-sec , .footer-details , .lets-sec{
+        padding: 50px  30px;
+    }
+    .intro-content h5{
+        font-size: 16px;
+    }
+    .intro-content h2{
+        font-size: 24px;
+    }
+    .intro-content p{
+        font-size: 14px;
+        margin: 20px 0px;
+    }
+    .sub-img {
+        top: 0px;
+        width: 182px;
+        left: 125px;
+    }
+    .choose-title h2, .service-title h2, .customer-say h2, .blog-title h2, .talk-title h2 {
+        font-family: 'Font-Bold', sans-serif;
+        font-size: 24px;
+    }
+    .choose-box{
+        margin: 30px 0px;
+    }
+    .choose-img img{
+        width: 72px;
+        height: 72px;
+    }
+    .choose-name h5 {
+        font-size: 18px;
+    }
+
+    .choose-button button{
+        width: 100%;
+    }
+    .serv-name h5 {
+        font-size: 16px;
+    }
+
+    .explore-btn button, .explore-btn button:hover {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .success-box{
+        width: 100%;
+        margin: 15px 0px;
+        padding: 10px 50px;
+    }
+    .sc-count span {
+        font-size: 48px;
+    }
+    .sc-name h5{
+        font-size: 18px;
+    }
+    .customer-say {
+        margin: 40px 0px;
+    }
+    .cst-desc p {
+        font-size: 13px;
+    }
+    .cst-city p {
+        font-size: 13px;
+
+    }
+    .cst-name h5 {
+        font-size: 16px;
+
+    }
+    .swiper-slide{
+        width: 342px;
+        margin-right: 10px;
+        width: 100% !important;
+        height: 255px !important;
+    }
+    .review-box {
+        padding: 15px;
+    }
+    .cst-star {
+        font-size: 18px;
+    }
+    .cst-review h5 {
+        font-size: 14px;
+    }
+    .left-rect {
+        top: 84px;
+        width: 113px;
+        rotate: 292deg;
+        left: -45px;
+    }
+    .secure-title h2 {
+        font-size: 25px;
+    }
+    .secure-title p{
+        font-size: 12px;
+    }
+    .secure-img img {
+        width: 218px;
+    }
+    .frame-icon {
+        width: 70px;
+        right: 3%;
+    }
+    .left-rect2 img , .right-rect2 img{
+        height: 80px
+    }
+    .right-rect2{
+        right: 0px;
+        bottom: 20px;
+    }
+    .left-rect2{
+        left: 0px;
+        top: 20px;
+    }
+    .blog-box{
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .blog-pic{
+        margin: 0px;
+    }
+    .entry-form form{
+        margin-top: 20px;
+    }
+    .entry-form{
+        margin: 0px;
+    }
+    .blog-info h6 {
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .blog-btn button {
+        padding: 9px 30px;
+        font-size: 8px;
+        margin: 0px;
+    }
+    .input-grp input , .select-grp select , .text-grp textarea , .input-grp input:focus , .select-grp select:focus-visible{
+       width: 100%;
+       padding: 14px 30px;
+       font-size: 12px;
+       margin: 10px 0px;
+       border-radius: 28px;
+      }
+      .input-grp input::placeholder , .select-grp select , .text-grp textarea::placeholder{
+        font-size: 12px;
+      }
+      .entry-form .input-grp , .entry-form .select-grp , .entry-form .text-grp{
+        display: flex;
+        justify-content: center;
+      }
+      .footer-details{
+        text-align: center;
+      }
+      .footer-details h2 {
+        font-size: 30px;
+        line-height: 29px;
+    }
+    .footer-details p {
+        font-size: 18px;
+        font-weight: 400;
+        margin: 30px 0px;
+        line-height: 21px;
+    }
+    .footer-details button {
+        background-color: #25CEBA;
+        padding: 7px 20px;
+        width: 100%;
+        font-size: 16px;
+    }
+    .blog-load p {
+        font-family: "Truculenta", sans-serif !important;
+        font-size: 12px;
+        width: 53px;
+        margin: 0px;
+    }
+
+   .footer-bottom .brand-logo , .sign-up{
+    padding: 30px;
+   }
+   .sp-title h3 {
+    font-family: 'Font-Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.sp-input button, .sp-input button:hover {
+    padding: 5px 20px;
+    font-size: 15px;
+}
+.sp-input input, .sp-input input:focus, .sp-input input:focus-visible {
+    width: 223px;
+    padding: 6px 20px;
+    font-size: 15px;
+
+}
+.sp-input{
+    justify-content: center;
+}
+.sp-info p {
+    font-size: 14px;
+}
+.sp-social div img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+.submit-btn button, .submit-btn button:hover {
+    width: 100%;
+}
 }

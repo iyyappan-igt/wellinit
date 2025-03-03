@@ -13,11 +13,11 @@ function Success() {
     return (
         <section className='success-sec'>
             <div className="container">
-            <div className="d-flex justify-content-center gap-3">
+            <div className="d-lg-flex d-block justify-content-center gap-3">
             {
                         success.Data.map((data)=>{
                             return(
-                                <div className="success-box d-flex align-items-baseline justify-content-center gap-3">
+                                <div className="success-box d-flex align-items-baseline justify-content-lg-center justify-content-start gap-3">
                                 <div className="sc-count m-0"><CountUp start={0} end={data?.data_count} /><span>+</span></div>
                                 <div className="sc-name"><h5 className='m-0'>{data?.data_name}</h5></div>
                             </div>

@@ -18,12 +18,12 @@ function Blogs() {
                       <img src={data?.blogs_img} className="img-fluid" />
                     </div>
                     <div className="row">
-                      <div className="col-lg-6">
+                      <div className="col-lg-6 col-6 ">
                         <div className="blog-info">
                           <h6>{data?.blogs_name}</h6>
                         </div>
                       </div>
-                      <div className="col-lg-6">
+                      <div className="col-lg-6 col-6 ">
                         <div className="blog-btn text-center">
                           <button className="btn">{data?.blogs_btn}</button>
                         </div>

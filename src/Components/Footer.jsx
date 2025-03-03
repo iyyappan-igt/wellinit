@@ -27,7 +27,7 @@ function Footer() {
              <div className="footer-bottom">
                 <div className="row">
                     <div className="col-lg-6">
-                          <div className="brand-logo h-100">
+                          <div className="brand-logo h-100 text-center text-lg-start">
                                     <img src={footer?.footer_logo} className="img-fluid"/>
                                 </div>
                     </div>
@@ -40,10 +40,10 @@ function Footer() {
                                 <input type='text'  className='form-control' placeholder='Enter Your Mail'/>
                                 <button className='btn'>Sign Up</button>
                             </div>
-                            <div className="sp-info">
+                            <div className="sp-info text-center text-lg-start">
                                 <p>By entering the e-mail you accept the <span>terms and conditions</span> and the<span> privacy policy.</span></p>
                             </div>
-                            <div className="sp-social d-flex align-items-center justify-content-start gap-3 py-4">
+                            <div className="sp-social d-flex align-items-center justify-content-lg-start justify-content-center gap-3 py-4">
                                 <div>
                                 <img src='\assets\linked.png' className='img-fluid'/>
                                 </div>

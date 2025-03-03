@@ -7,7 +7,7 @@ function Whychoose() {
         <div className="choose-title text-center">
           <h2>Why Choose Wellinit ?</h2>
         </div>
-        <div className="choose-option d-flex align-items-center justify-content-evenly my-5">
+        <div className="choose-option d-lg-flex d-block align-items-center justify-content-evenly my-lg-5 my-0 ">
              <div className="choose-box d-flex align-items-center gap-3">
                  <div className="choose-img">
                   <img src="\assets\icon1.png" className="img-fluid"/>
@@ -18,7 +18,7 @@ function Whychoose() {
              </div>
              <div className="choose-box d-flex align-items-center gap-3">
                  <div className="choose-img">
-                  <img src="\assets\icon1.png" className="img-fluid"/>
+                  <img src="\assets\icon2.png" className="img-fluid"/>
                  </div>
                  <div className="choose-name ">
                   <h5>Reduced Denial Rates & Faster Reimbursements</h5>
@@ -26,7 +26,7 @@ function Whychoose() {
              </div>
              <div className="choose-box d-flex align-items-center gap-3">
                  <div className="choose-img">
-                  <img src="\assets\icon1.png" className="img-fluid"/>
+                  <img src="\assets\icon5.png" className="img-fluid"/>
                  </div>
                  <div className="choose-name">
                   <h5>HIPAA-Compliant & Secure Operations</h5>
@@ -34,10 +34,10 @@ function Whychoose() {
              </div>
       
         </div>
-        <div className="choose-option d-flex align-items-center justify-content-center gap-5 ">
+        <div className="choose-option d-lg-flex d-block align-items-center justify-content-center gap-5 ">
         <div className="choose-box d-flex align-items-center gap-3">
                  <div className="choose-img">
-                  <img src="\assets\icon1.png" className="img-fluid"/>
+                  <img src="\assets\icon3.png" className="img-fluid"/>
                  </div>
                  <div className="choose-name">
                   <h5>Dedicated Account Manager for Every Client</h5>
@@ -45,14 +45,14 @@ function Whychoose() {
              </div>
              <div className="choose-box d-flex align-items-center gap-3">
                  <div className="choose-img">
-                  <img src="\assets\icon1.png" className="img-fluid"/>
+                  <img src="\assets\icon4.png" className="img-fluid"/>
                  </div>
                  <div className="choose-name">
                   <h5>Seamless Integration with EHR & Billing Systems</h5>
                  </div>
              </div>
         </div>
-        <div className="choose-button text-center my-5">
+        <div className="choose-button text-center my-lg-5 mt-4">
           <button className="btn"> Learn More About Our Services</button>
         </div>
       </div>

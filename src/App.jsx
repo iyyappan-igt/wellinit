@@ -6,7 +6,6 @@ import './Responsive/Responsive.css';
 function App() {
   return (
       <div>
-
         <Home/>
       </div>
   );
