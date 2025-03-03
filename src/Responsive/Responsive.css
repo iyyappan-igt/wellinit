@@ -10,15 +10,15 @@
         width: 520px;
         height: 375px;
         background-size: cover;
-        margin-top: 367px;
+        margin-top: 330px;
     }
     .banner-place1 {
         width: 100%;
-        height: 370px;
+        height: 333px;
         background-size: cover;
     }
     .banner-content {
-        padding: 50px 30px;
+        padding: 50px;
         left: 0px;
         top: 0px;
         text-align: center;
@@ -106,7 +106,7 @@
     .success-box{
         width: 100%;
         margin: 15px 0px;
-        padding: 10px 50px;
+        padding: 10px 30px;
     }
     .sc-count span {
         font-size: 48px;
@@ -244,7 +244,7 @@
     text-align: center;
 }
 .sp-input button, .sp-input button:hover {
-    padding: 5px 20px;
+    padding: 4px 8px;
     font-size: 15px;
 }
 .sp-input input, .sp-input input:focus, .sp-input input:focus-visible {
@@ -266,5 +266,6 @@
 }
 .submit-btn button, .submit-btn button:hover {
     width: 100%;
+    margin-top: 15px;
 }
 }
