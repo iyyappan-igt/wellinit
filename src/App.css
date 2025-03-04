@@ -92,26 +92,26 @@ body , html{
   font-family: 'Font-Bold' , sans-serif;
   font-size: 48px;
 }
-.serv-img img{
+/* .serv-img img{
   width: 445px;
   border-radius: 20px;
-}
+} */
 .service-sec{
   background-color: #DEFFFB;
-  padding: 60px 0px;
+  padding: 100px 0px;
 }
-.serv-box{
+/* .serv-box{
   background-color:  #25CEBA;
   border-radius: 25px 25px 10px 10px;
   margin: 30px 0px;
-}
-.serv-name h5{
+} */
+/* .serv-name h5{
   font-size: 24px;
   font-weight: 600;
   padding: 20px 0px;
-}
+} */
 .explore-btn button , .explore-btn button:hover{
- background-color: #000;
+ background-color: #25CEBA;
  color: #ffff;
   padding: 9px 30px;
   margin-top: 50px;
@@ -353,6 +353,7 @@ body , html{
 .sign-up , .footer-bottom .brand-logo{
   padding: 70px 130px;
 }
+
 .sp-info span{
   border-bottom: 1px solid #fff;
   cursor: pointer;
@@ -363,6 +364,12 @@ body , html{
 }
 .choose-name{
   width: 250px;
+}
+.choose-option{
+  margin-top: 40px;
+}
+.choose-box{
+  padding: 30px 0px;
 }
 .choose-name h5{
   font-size: 24px;
@@ -378,5 +385,80 @@ body , html{
 .choose-sec{
   padding: 80px 0px;
 }
+.sp-icon img{
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.sp-icon{
+  width: 200px;
+  background-color: #000;
+  padding: 50px 50px;
+  border-radius: 127px;
 
-
+}
+.sp-name h5{
+  font-size: 28px;
+  font-weight: 600;
+  padding: 20px 0px;
+  width: 295px;
+}
+.service-place{
+  margin-top: 70px;
+}
+.sc-icon{
+  width: 24px;
+}
+.sc-title h5{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 61px;
+}
+.sc-title span{
+  color: #b8b802;
+}
+.secure-div{
+  background-color: #00153C;
+  padding: 60px 0px; 
+  color: #ffff;
+}
+.sc-types{
+  margin: 25px 0px;
+}
+.athena img{
+  width: 465px;
+}
+.sc-details button , .sc-details button:hover{
+  padding: 11px 48px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #18B9A6;
+}
+.mapimg{
+  background: url('../public/assets/map.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+height: 500px;
+}
+.secure-content{
+  margin-left: 90px;
+  padding: 40px 0px;
+}
+.scgap{
+  margin: 50px 0px;
+}
+.lock-vontent p{
+  font-size: 24px;
+  margin: 30px 0px;
+}
+.lockimg img{
+  height: 540px;
+  object-fit: cover;
+}
+.lock-vontent{
+  padding: 100px;
+}
+.securlock{
+  background-color: #000;
+  color: #ffff;
+}

@@ -23,9 +23,9 @@ function Home() {
                 <Banner/>
             </section>
 
-            <section>
+            {/* <section>
                 <Experience/>
-            </section>
+            </section> */}
 
             <section>
                 <Introduction/>
@@ -39,9 +39,9 @@ function Home() {
                 <Ourservice/>
             </section>
 
-            <section>
+            {/* <section>
                 <Success/>
-            </section>
+            </section> */}
 
             <section>
                 <Security/>

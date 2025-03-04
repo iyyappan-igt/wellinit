@@ -95,9 +95,9 @@
     .choose-button button{
         width: 100%;
     }
-    .serv-name h5 {
+    /* .serv-name h5 {
         font-size: 16px;
-    }
+    } */
 
     .explore-btn button, .explore-btn button:hover {
         margin-top: 20px;

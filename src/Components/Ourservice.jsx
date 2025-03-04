@@ -12,12 +12,24 @@ function Ourservice() {
                     {
                         Service.services.map((data , i)=>{
                           return(
-                            <div className="col-lg-6 d-flex justify-content-center" key={i}>
-                            <div className="serv-box">
-                                <div className="serv-img">
+                        //     <div className="col-lg-6 d-flex justify-content-center" key={i}>
+                        //     <div className="serv-box">
+                        //         <div className="serv-img">
+                        //             <img src={data?.image} className='img-fluid'/>
+                        //         </div>
+                        //         <div className="serv-name text-center">
+                        //             <h5>{data?.name}</h5>
+                        //         </div>
+                        //     </div>
+                        // </div>
+                        <div className="col-lg-4" key={i}>
+                            <div className="service-place">
+                                <div className="d-flex justify-content-center">
+                                <div className="sp-icon">
                                     <img src={data?.image} className='img-fluid'/>
                                 </div>
-                                <div className="serv-name text-center">
+                                </div>
+                                <div className="sp-name d-flex justify-content-center text-center">
                                     <h5>{data?.name}</h5>
                                 </div>
                             </div>

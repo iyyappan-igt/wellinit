@@ -3,33 +3,33 @@ export const Service = {
     services : [
         {
             id:1,
-            image :'assets/service(1).png',
-            name :'Medical Coding (Front-End & Back-End)'
+            image :'assets/s-icon1.png',
+            name :'Fast & Reliable Benefits Verification & Prior Authorization Services'
         },
         {
             id:2,
-            image :'assets/service(2).png',
-            name :'Charge Entry & Claims Submission'
+             image :'assets/s-icon2.png',
+            name :'Charge Entry & Scrubbing (Accuracy, Efficiency & Maximum Reimbursement)'
         },
         {
             id:3,
-            image :'assets/service(3).png',
-            name :'Denial Management & Appeals'
+             image :'assets/s-icon3.png',
+            name :'Comprehensive Medical Coding – Front & Back-End Solutions'
         },
         {
             id:4,
-            image :'assets/service(4).png',
-            name :'Patient A/R & Collections'
+             image :'assets/s-icon4.png',
+            name :'Efficient Denial managements and Proactive improvements'
         },
         {
             id:5,
-            image :'assets/service(5).png',
-            name :'Provider Credentialing'
+             image :'assets/s-icon5.png',
+            name :'Patient Contact center services'
         },
         {
             id:6,
-            image :'assets/service(6).png',
-            name :'Prior Authorization & Benefits Verification'
+            image :'assets/s-icon6.png',
+            name :'Expert Provider credentialing support'
         },
     ],
     button : "Explore Our Services"
