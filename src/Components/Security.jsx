@@ -42,7 +42,6 @@ function Security() {
                     Powering Revenue Growth with <span>AthenaOne</span>
                   </h5>
                 </div>
-                <div className="d-flex justify-content-center d-lg-block" >
                 <div className="scgap">
                   <div className="sc-types d-flex align-items-center  gap-3">
                     <div className="sc-icon">
@@ -71,7 +70,6 @@ function Security() {
                     </div>
                   </div>
                 </div>
-                </div>
       
                 <div className="sc-details text-lg-start text-center">
                   <button className="btn">Know More</button>
@@ -89,12 +87,12 @@ function Security() {
       <section className="securlock">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-lg-6 d-lg-block  d-none  p-0">
+            <div className="col-lg-6 d-lg-block  d-none ">
               <div className="lockimg">
                 <img src="\assets\secure.png" className="img-fluid" />
               </div>
             </div>
-            <div className="col-lg-6 p-0">
+            <div className="col-lg-6">
               <div className="lock-vontent text-lg-start text-center">
                 <div className="sc-title">
                   <h5>HIPAA Compliance & Secure Data Handling</h5>

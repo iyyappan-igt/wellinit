@@ -100,12 +100,13 @@
         width: 100px;
         padding: 25px;
     }
-    .choose-img img{
+    .choose-img img {
         width: 72px;
-        height: 72px;
+        height: 100%;
     }
     .choose-name h5 {
         font-size: 18px;
+        margin: 0px;
     }
 
     .choose-button button{
@@ -291,7 +292,7 @@
 }
 .secure-content{
     margin: 0px;
-    padding: 0px
+    padding: 0px 30px;
 }
 .sc-details button{
     width: 100%;
@@ -300,7 +301,7 @@
 .mapimg {
     background: url('/public/assets/map.png');
     background-size: cover;
-    height: 400px;
+    height: 100%;
 }
 .athena img {
     width: 290px;
@@ -310,7 +311,7 @@
     font-size: 16px;
 }
 .lockimg img {
-    height: 370px;
+    height: 100%
 }
 .scgap{
     margin: 20px 0px;
