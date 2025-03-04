@@ -22,7 +22,7 @@ function Ourservice() {
                         //         </div>
                         //     </div>
                         // </div>
-                        <div className="col-lg-4" key={i}>
+                        <div className="col-lg-4 col-6" key={i}>
                             <div className="service-place">
                                 <div className="d-flex justify-content-center">
                                 <div className="sp-icon">

@@ -59,7 +59,7 @@
         background-color: white;
         padding: 30px;
     }
-    .intro-content , .success-sec , .choose-sec ,  .service-sec , .blog-sec , .footer-details , .lets-sec{
+    .intro-content , .success-sec , .choose-sec ,  .service-sec , .blog-sec , .footer-details , .lets-sec , .lock-vontent {
         padding: 50px  30px;
     }
     .intro-content h5{
@@ -82,7 +82,23 @@
         font-size: 24px;
     }
     .choose-box{
-        margin: 30px 0px;
+        padding: 10px 0px;
+    }
+    .sp-icon img {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+    .sp-name h5{
+        font-size: 12px;
+        width: 100%;
+    }
+    .service-place {
+        margin-top: 20px;
+    }
+    .sp-icon {
+        width: 100px;
+        padding: 25px;
     }
     .choose-img img{
         width: 72px;
@@ -267,5 +283,36 @@
 .submit-btn button, .submit-btn button:hover {
     width: 100%;
     margin-top: 15px;
+}
+.sc-title h5 {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+.secure-content{
+    margin: 0px;
+    padding: 0px
+}
+.sc-details button{
+    width: 100%;
+    font-size: 16px;
+}
+.mapimg {
+    background: url('/public/assets/map.png');
+    background-size: cover;
+    height: 400px;
+}
+.athena img {
+    width: 290px;
+    padding: 60px 0px;
+}
+.lock-vontent p , .sc-details button{
+    font-size: 16px;
+}
+.lockimg img {
+    height: 370px;
+}
+.scgap{
+    margin: 20px 0px;
 }
 }

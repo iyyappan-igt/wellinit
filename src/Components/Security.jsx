@@ -42,8 +42,9 @@ function Security() {
                     Powering Revenue Growth with <span>AthenaOne</span>
                   </h5>
                 </div>
+                <div className="d-flex justify-content-center d-lg-block" >
                 <div className="scgap">
-                  <div className="sc-types d-flex align-items-center gap-3">
+                  <div className="sc-types d-flex align-items-center  gap-3">
                     <div className="sc-icon">
                       <img src="\assets\tick.png" className="img-fluid" />
                     </div>
@@ -70,7 +71,9 @@ function Security() {
                     </div>
                   </div>
                 </div>
-                <div className="sc-details">
+                </div>
+      
+                <div className="sc-details text-lg-start text-center">
                   <button className="btn">Know More</button>
                 </div>
               </div>
@@ -86,13 +89,13 @@ function Security() {
       <section className="securlock">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-lg-6 p-0">
+            <div className="col-lg-6 d-lg-block  d-none  p-0">
               <div className="lockimg">
                 <img src="\assets\secure.png" className="img-fluid" />
               </div>
             </div>
             <div className="col-lg-6 p-0">
-              <div className="lock-vontent">
+              <div className="lock-vontent text-lg-start text-center">
                 <div className="sc-title">
                   <h5>HIPAA Compliance & Secure Data Handling</h5>
                 </div>
@@ -103,6 +106,11 @@ function Security() {
                 <div className="sc-details">
                   <button className="btn">Know More</button>
                 </div>
+              </div>
+            </div>
+            <div className="col-lg-6 d-lg-none d-block p-0">
+              <div className="lockimg">
+                <img src="\assets\secure.png" className="img-fluid" />
               </div>
             </div>
           </div>
