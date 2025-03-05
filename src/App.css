@@ -14,7 +14,10 @@ body , html{
   font-family: 'Font-Regular' , sans-serif !important;
   overflow-x: hidden;
 }
-
+a{
+  text-decoration: none !important;
+  color: #000 !important;
+}
 .brand-logo img{
   width: 195px;
   height: 82px;
@@ -461,4 +464,70 @@ height: 500px;
 .securlock{
   background-color: #000;
   color: #ffff;
+}
+
+.abtbanner-content{
+  top: 11%;
+  left: 0px;
+  padding: 0px 320px;
+}
+.abtbanner-content h2{
+  font-size: 60px;
+  font-family: 'Font-Bold' , sans-serif;
+}
+.abtbanner-content p{
+  font-size: 28px;
+  margin: 30px 0px;
+}
+.abtbanner-content button , .abtbanner-content button:hover{
+  background-color: #00A9E5;
+  color: #fff;
+  padding: 13px 32px;
+  font-size: 20px;
+}
+.abtwho-pic img{
+  height: 673px;
+  object-fit: cover;
+}
+.abtwho-cnt h2{
+  font-family: 'Font-Bold' , sans-serif;
+  font-size: 40px;
+}
+.abtwho-cnt h5{
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 50px;
+}
+.abtwho-cnt p{
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px ;
+}
+.abt-who{
+  background-color: #F3F5F6;
+}
+.abtwho-cnt{
+  padding: 100px 50px;
+}
+.mission-img img{
+  width: 840px;
+}
+.abt-mission h4{
+  font-size: 24px;
+  color: #098879;
+  font-weight: 600;
+}
+.abt-mission h2{
+  font-family: 'Font-Bold' , sans-serif;
+  font-size: 40px;
+  margin: 30px 0px;
+}
+.abt-mission p{
+  font-size: 20px;
+}
+.abt-billing{
+  padding: 100px 0px;
+}
+.mission-img {
+  margin-top: 60px;
 }

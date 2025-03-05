@@ -1,5 +1,6 @@
 import React from "react";
 import { Nav } from "../Constants/Nav";
+import { Link } from "react-router-dom";
 
 
 function Navbar() {
@@ -27,7 +28,8 @@ function Navbar() {
                     Nav.titles.map((data , i)=>{
                         return(
                             <div className="nav-items" key={i}>
-                                <h5>{data}</h5>
+                              <Link to={data?.link}><h5>{data?.name}</h5></Link>
+                                
                             </div>
                         )
                     })

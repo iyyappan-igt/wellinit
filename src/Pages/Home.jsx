@@ -10,14 +10,12 @@ import Security from '../Components/Security'
 import Blogs from '../Components/Blogs'
 import Letstalk from '../Components/Letstalk'
 import Footer from '../Components/Footer'
+import Securebanner from '../Components/Securebanner'
 
 function Home() {
     return (
         <section>
 
-            <section>
-                <Header/>
-            </section>
 
             <section>
                 <Banner/>
@@ -47,6 +45,11 @@ function Home() {
                 <Security/>
             </section>
 
+
+            <section>
+                <Securebanner/>
+            </section>
+
             <section>
                 <Blogs/>
             </section>
@@ -55,9 +58,7 @@ function Home() {
                 <Letstalk/>
             </section>
 
-            <section>
-                <Footer/>
-            </section>
+
 
         </section>
     )
