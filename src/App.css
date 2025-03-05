@@ -482,6 +482,7 @@ height: 500px;
 .abtbanner-content button , .abtbanner-content button:hover{
   background-color: #00A9E5;
   color: #fff;
+  font-weight: 600;
   padding: 13px 32px;
   font-size: 20px;
 }
@@ -531,3 +532,4 @@ height: 500px;
 .mission-img {
   margin-top: 60px;
 }
+

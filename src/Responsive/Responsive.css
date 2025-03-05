@@ -316,4 +316,57 @@
 .scgap{
     margin: 20px 0px;
 }
+.abtbanner-content h2{
+    font-size: 30px;
+  }
+  .abt-frme img{
+    height: 516px;
+    object-fit: cover;
+  }
+.abtbanner-content{
+    padding: 0px 30px;
+}
+.abtbanner-content p{
+    font-size: 16px;
+}
+.abtbanner-content button, .abtbanner-content button:hover {
+    background-color: #00A9E5;
+    color: #fff;
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+.abtbanner-content p{
+    margin: 20px 0px;
+}
+.abtwho-cnt {
+    padding: 50px 30px
+}
+.abtwho-cnt h2 {
+    font-size: 24px;
+}
+.abtwho-cnt h5{
+    font-size: 16px;
+    margin: 25px 0px;
+}
+.abtwho-cnt p{
+    font-size: 14px;
+}
+.abtwho-pic img{
+    height: 450px;
+}
+.abt-billing{
+    padding: 50px 30px;
+}
+.abt-mission h4{
+    font-size: 16px;
+  }
+  .abt-mission h2{
+    font-size: 24px;
+    margin: 20px 0px;
+  }
+  .abt-billing p{
+    font-size: 16px;
+  }
+
 }
