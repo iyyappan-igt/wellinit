@@ -12,7 +12,7 @@ function Blogs() {
           <div className="row">
             {blogs.data.map((data) => {
               return (
-                <div className="col-lg-6 d-flex justify-content-center">
+                <div className="col-lg-6 col-md-6 d-flex justify-content-center">
                   <div className="blog-box">
                     <div className="blog-img">
                       <img src={data?.blogs_img} className="img-fluid" />

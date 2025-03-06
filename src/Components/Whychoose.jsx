@@ -4,12 +4,12 @@ function Whychoose() {
   return (
     <section className="choose-sec">
       <div className="container">
-        <div className="choose-title text-center">
+        <div className="choose-title text-center"  data-aos="zoom-in" data-aos-duration="1500">
           <h2>Why Choose Wellinit ?</h2>
         </div>
         <div className="choose-option ">
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
             <div className="choose-box d-flex align-items-center justify-content-center gap-3">
                  <div className="choose-img">
                   <img src="\assets\icon1.png" className="img-fluid"/>
@@ -19,7 +19,7 @@ function Whychoose() {
                  </div>
              </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
             <div className="choose-box d-flex align-items-center justify-content-center gap-3">
                  <div className="choose-img">
                   <img src="\assets\icon2.png" className="img-fluid"/>
@@ -29,7 +29,7 @@ function Whychoose() {
                  </div>
              </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
             <div className="choose-box d-flex align-items-center justify-content-center gap-3">
                  <div className="choose-img">
                   <img src="\assets\icon5.png" className="img-fluid"/>
@@ -39,7 +39,7 @@ function Whychoose() {
                  </div>
              </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
             <div className="choose-box d-flex align-items-center justify-content-center gap-3">
                  <div className="choose-img">
                   <img src="\assets\icon3.png" className="img-fluid"/>
@@ -49,7 +49,7 @@ function Whychoose() {
                  </div>
              </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
             <div className="choose-box d-flex align-items-center justify-content-center gap-3">
                  <div className="choose-img">
                   <img src="\assets\icon4.png" className="img-fluid"/>
@@ -59,7 +59,7 @@ function Whychoose() {
                  </div>
              </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
             <div className="choose-box d-flex align-items-center justify-content-center gap-3">
                  <div className="choose-img">
                   <img src="\assets\icon4.png" className="img-fluid"/>
@@ -77,7 +77,7 @@ function Whychoose() {
             
       
         </div>
-        <div className="choose-button text-center my-lg-5 mt-4">
+        <div className="choose-button text-center my-xl-5 my-lg-4  mt-4">
           <button className="btn"> Learn More About Our Services</button>
         </div>
       </div>

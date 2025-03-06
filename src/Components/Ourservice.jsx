@@ -5,7 +5,7 @@ function Ourservice() {
     return (
         <section className='service-sec'>
             <div className="container">
-                <div className="service-title text-center">
+                <div className="service-title text-center" data-aos="zoom-in" data-aos-duration="1500">
                     <h2>{Service.title}</h2>
                 </div>
                 <div className="row mt-4">
@@ -26,7 +26,7 @@ function Ourservice() {
                             <div className="service-place">
                                 <div className="d-flex justify-content-center">
                                 <div className="sp-icon">
-                                    <img src={data?.image} className='img-fluid'/>
+                                    <img src={data?.image} className='img-fluid'  data-aos="zoom-out" data-aos-duration="1500"/>
                                 </div>
                                 </div>
                                 <div className="sp-name d-flex justify-content-center text-center">

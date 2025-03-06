@@ -5,13 +5,14 @@ function Securebanner() {
         <section className="securlock">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-lg-6 d-lg-block  d-none ">
+            <div className="col-lg-6 col-md-12  p-0 d-lg-block  d-none ">
               <div className="lockimg">
                 <img src="\assets\secure.png" className="img-fluid" />
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="lock-vontent text-lg-start text-center">
+            <div className="col-lg-6 col-md-12 p-0">
+              <div className="lock-vontent text-lg-start text-center"  data-aos="fade-left"
+             data-aos-duration="1500">
                 <div className="sc-title">
                   <h5>HIPAA Compliance & Secure Data Handling</h5>
                 </div>

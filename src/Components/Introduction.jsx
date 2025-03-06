@@ -14,8 +14,9 @@ function Introduction() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-12 p-0">
-                        <div className="intro-content text-center h-100">
+                    <div className="col-lg-6 col-md-12 col-12 p-0 h-100">
+                        <div className="intro-content text-center h-100" data-aos="fade-left"
+   data-aos-duration="1500">
                             <h5>{Intro.Title}</h5>
                             <h2>{Intro.Subtitle}</h2>
                             <p>{Intro.Description}</p>
@@ -24,9 +25,9 @@ function Introduction() {
         
                       
                     </div>
-                    <div className="col-lg-6 d-block d-lg-none p-0">
-                        <div className="into-img position-relative h-100">
-                            <img src={Intro.Mainbanner} className='img-fluid h-100'/>
+                    <div className="col-lg-6  col-md-12 d-block d-lg-none p-0">
+                        <div className="into-img position-relative">
+                            <img src={Intro.Mainbanner} className='img-fluid'/>
                             <div className="sub-img position-absolute">
                                 <img src={Intro.Subanner} className='img-fluid'/>
                             </div>

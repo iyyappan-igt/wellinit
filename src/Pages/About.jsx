@@ -34,9 +34,9 @@ function About() {
                   <p>{Aboucontent?.whowe[0]?.content_2}</p>
                 </div>
               </div>
-              <div className="col-lg-6 col-12 p-0">
-                <div className="abtwho-pic">
-                  <img src="\assets\medteam.png" className="img-fluid" />
+              <div className="col-lg-6 col-12 p-0 ">
+                <div className="abtwho-pic h-100">
+                  <img src="\assets\medteam.png" className="img-fluid h-100" />
                 </div>
               </div>
             </div>
@@ -58,6 +58,7 @@ function About() {
         <Securebanner/>
 
         <Letstalk/>
+
   </section>
 
   );

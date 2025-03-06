@@ -9,7 +9,9 @@ function Navbar() {
         <div className="container">
         <nav className="navbar navbar-expand-lg ">
         <div className="brand-logo">
+            <Link to="/">
             <img src={Nav.logo} className="img-fluid"/>
+            </Link>
         </div>
         <button
           className="navbar-toggler"

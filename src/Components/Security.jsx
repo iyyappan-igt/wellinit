@@ -35,48 +35,52 @@ function Security() {
       <section className="secure-div">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-lg-5">
-              <div className="secure-content ">
-                <div className="sc-title">
+            <div className="col-xl-5 col-lg-6">
+              <div className="secure-content "
+              data-aos="fade-right"
+             data-aos-duration="1500">
+                <div className="sc-title text-center text-lg-start">
                   <h5>
                     Powering Revenue Growth with <span>AthenaOne</span>
                   </h5>
                 </div>
-                <div className="scgap">
-                  <div className="sc-types d-flex align-items-center  gap-3">
-                    <div className="sc-icon">
-                      <img src="\assets\tick.png" className="img-fluid" />
+                <div className="mainscc ">
+                  <div className="scgap">
+                    <div className="sc-types d-flex align-items-center  gap-3">
+                      <div className="sc-icon">
+                        <img src="\assets\tick.png" className="img-fluid" />
+                      </div>
+                      <div className="sc-data">
+                        <p className="m-0">98.4% Clean Claim Submission Rate</p>
+                      </div>
                     </div>
-                    <div className="sc-data">
-                      <p className="m-0">98.4% Clean Claim Submission Rate</p>
+                    <div className="sc-types d-flex align-items-center gap-3">
+                      <div className="sc-icon">
+                        <img src="\assets\tick.png" className="img-fluid" />
+                      </div>
+                      <div className="sc-data">
+                        <p className="m-0">
+                          15% Faster Payments with Online Patient Billing
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                  <div className="sc-types d-flex align-items-center gap-3">
-                    <div className="sc-icon">
-                      <img src="\assets\tick.png" className="img-fluid" />
-                    </div>
-                    <div className="sc-data">
-                      <p className="m-0">
-                        15% Faster Payments with Online Patient Billing
-                      </p>
-                    </div>
-                  </div>
-                  <div className="sc-types d-flex align-items-center gap-3">
-                    <div className="sc-icon">
-                      <img src="\assets\tick.png" className="img-fluid" />
-                    </div>
-                    <div className="sc-data">
-                      <p className="m-0">48% Higher Patient Pay Yield</p>
+                    <div className="sc-types d-flex align-items-center gap-3">
+                      <div className="sc-icon">
+                        <img src="\assets\tick.png" className="img-fluid" />
+                      </div>
+                      <div className="sc-data">
+                        <p className="m-0">48% Higher Patient Pay Yield</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-      
+
                 <div className="sc-details text-lg-start text-center">
                   <button className="btn">Know More</button>
                 </div>
               </div>
             </div>
-            <div className="col-lg-7 mapimg">
+            <div className="col-xl-7 col-lg-6 mapimg">
               <div className="athena text-center">
                 <img src="assets\athena.png" className="img-fluid" />
               </div>
@@ -84,7 +88,6 @@ function Security() {
           </div>
         </div>
       </section>
-      
     </>
   );
 }
