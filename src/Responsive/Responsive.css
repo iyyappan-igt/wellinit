@@ -705,3 +705,17 @@
 }
 
 
+
+
+@media (width < 425px) {
+
+    .banner-content {
+        left: 16px;
+        padding: 0;
+        text-align: center;
+        top: 40px;
+        width: 100%;
+        padding: 0px 30px;
+    }
+    
+}
