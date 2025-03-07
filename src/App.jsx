@@ -6,6 +6,9 @@ import MainRoutes from './Routes/MainRoutes';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
+
+
+
 function App() {
 
 
@@ -14,10 +17,16 @@ function App() {
     AOS.init();
   }, []);
 
+  function animateText() {
+    const button = document.querySelector('.button');
+    button.classList.add('clicked');
+}
+
 
 
   return (
      <MainRoutes/>
+
   );
 }
 

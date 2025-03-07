@@ -18,7 +18,7 @@ function About() {
 
             <h2>{Aboucontent?.Bannerframe[0]?.title}</h2>
             <p>{Aboucontent?.Bannerframe[0]?.sub_title}</p>
-            <button className="btn">{Aboucontent?.Bannerframe[0]?.button}</button>
+            <a href="#letstalk"><button className="btn">{Aboucontent?.Bannerframe[0]?.button}</button></a>
           </div>
         </div>
       </div>

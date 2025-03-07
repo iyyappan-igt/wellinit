@@ -13,7 +13,7 @@ function Footer() {
                         <div className="footer-details h-100">
                             <h2>{footer?.title}</h2>
                             <p>{footer?.sub_title}</p>
-                            <button className='btn'>{footer?.button}</button>
+                            <a href='#letstalk'><button className='btn'>{footer?.button}</button></a>
                         </div>
                         
                     </div>

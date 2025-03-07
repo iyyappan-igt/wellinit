@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Security() {
   return (
@@ -76,7 +77,7 @@ function Security() {
                 </div>
 
                 <div className="sc-details text-lg-start text-center">
-                  <button className="btn">Know More</button>
+                  <Link to="/athena"><button className="btn">Know More</button></Link>
                 </div>
               </div>
             </div>
