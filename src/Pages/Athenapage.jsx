@@ -4,6 +4,7 @@ import { Athena } from "../Constants/Athena.contant.js/Athena";
 function Athenapage() {
   return (
     <section className="athpage">
+      
       <div className="athena-frame pt-5">
         <div className="container text-center">
           <h4>{Athena.banner[0]?.sub_title}</h4>
