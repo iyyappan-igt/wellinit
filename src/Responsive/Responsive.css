@@ -1,8 +1,4 @@
 
-
-
-
-
 @media (width < 1200px ) {
 
     .brand-logo img {
@@ -197,6 +193,40 @@
     .mission-img img {
         width: 650px;
     }
+    .athena-frame .container h4  , .ci-title h2{
+        font-size: 45px;
+    }
+    .athena-frame .container h2 {
+        font-size: 110px;
+    }
+    .athpic img, .wellpic img {
+        width: 140px;
+    }
+
+    .ci-points{
+        width: 580px;
+    }
+    .ci-name h5 {
+        font-size: 23px;
+    }
+    .athena-modular p, .report-content p {
+        padding-top: 20px;
+        font-size: 18px;
+    }
+    .mo-point h5 {
+        font-size: 18px;
+        margin: 19px 0px;
+    }
+
+    .point-btn button , .point-btn button:hover , .report-content button , .report-content button:hover{
+        font-size: 16px;
+      }
+      .fff{
+        width: 600px;
+      }
+      .value-point{
+        width: 800px !important;
+      }
 }
 
 @media (width <  992px) {
@@ -326,10 +356,113 @@
     .abtbanner-content P{
         font-size: 20px;
     }
+    .athena-frame .container h4, .ci-title h2 {
+        font-size: 35px;
+    }
+    .athena-frame .container h2 {
+        font-size: 80px;
+    }
+    .athena-frame .container p {
+        font-size: 18px;
+    }
+    .wellpic {
+        right: 5%;
+        top: 2%;
+    }
+    .athpic {
+        top: 4%;
+        left: 5%;
+    }
+    .athpic img, .wellpic img {
+        width: 120px;
+    }
+    .athena-modular {
+        width: 100%;
+    }
+    .athena-modular h2, .report-content h2 {
+        font-size: 45px;
+    }
+
+    .mo-point h5 {
+        font-size: 17px;
+        margin: 15px 0px;
+    }
+    .fff {
+        width: 550px;
+    }
+    .ci-tik , .jjjj{
+        width: 50px;
+        height: 50px;
+    }
+    .value-point{
+        width: 100% !important;
+    }
+    .ci-name h5 {
+        font-size: 21px;
+    }
+    .report-img img , .mo-img img{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .point-btn button, .point-btn button:hover, .report-content button, .report-content button:hover {
+        padding: 8px 35px;
+        font-size: 16px;
+    }
+    .common-issue , .modular-service , .report-service {
+        padding: 60px 0px;
+    }
+
 
 }
 
-
+@media (width < 768px) {
+    .athpic img, .wellpic img {
+        width: 100px;
+        padding: 20px;
+    }
+    .common-issue, .modular-service, .report-service {
+        padding: 50px 30px;
+    }
+    .athena-frame .container h4, .ci-title h2 {
+        font-size: 24px;
+    }
+    .athena-frame .container h2 {
+        font-size: 60px;
+    }
+    .athena-frame .container p {
+        font-size: 16px;
+    }
+    .ci-points {
+        width: 100%;
+    }
+    .ci-tik {
+        width: 45px;
+        height: 45px;
+    }
+    .ci-tik img{
+        margin-top: 10px;
+    }
+    .jjjj {
+        width: 47px;
+        height: 40px;
+    }
+    
+    .ci-name h5 {
+        font-size: 17px;
+    }
+    .athena-modular{
+        text-align: center;
+    }
+    .athena-modular h2, .report-content h2 {
+        font-size: 35px;
+    }
+    .report-img img, .mo-img img {
+        width: 400px;
+    }
+    .fff {
+        width: 100%;
+    }
+}
 
 @media (width < 576px) {
     
@@ -702,10 +835,52 @@
   .abt-billing p{
     font-size: 16px;
   }
-
+  .athena-frame .container h4 {
+    font-size: 18px;
 }
-
-
+.athena-frame .container h2 {
+    font-size: 42px;
+}
+.athpic img, .wellpic img {
+    width: 90px;
+}
+.ci-tik img  , .jjjj img{
+    width: 12px;
+    object-fit: contain;
+}
+.ci-tik {
+    width: 24px;
+    height: 24px;
+}
+.jjjj {
+    width: 28px;
+    height: 24px;
+}
+.ci-tik img  , .jjjj img {
+    margin-top: 0px;
+}
+.ci-name h5  {
+    font-size: 14px;
+}
+.athena-modular h2, .report-content h2 {
+    font-size: 24px;
+}
+.athena-modular p, .report-content p {
+    padding-top: 10px;
+    font-size: 16px;
+}
+.mo-point h5 {
+    font-size: 14px;
+    margin: 12px 0px;
+}
+.point-btn button, .point-btn button:hover, .report-content button, .report-content button:hover {
+    font-size: 16px;
+    width: 100%;
+}
+.report-img img, .mo-img img {
+    width: 300px;
+}
+}
 
 @media (width < 425px) {
 

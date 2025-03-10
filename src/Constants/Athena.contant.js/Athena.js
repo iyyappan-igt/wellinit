@@ -9,36 +9,45 @@ export const Athena  = {
             well_img : "assets/wellinit-img.png"
         }
     ] ,
-    common_issues : [
+    
+    common_issues : [{
+        title : "Common Issues faced by practices" , 
+        points : [
+            {
+                id : 1,
+                issues : 'High stress on overheads'
+            },
+            {
+                id : 2,
+                issues : 'Staff attritions'
+            },
+            {
+                id : 3,
+                issues : 'Lower collection rates'
+            },
+            {
+                id : 4,
+                issues : 'Hold buckets / AR out of control'
+            },
+            {
+                id : 5,
+                issues : 'Delay in addressing denials & Issues'
+            },
+            {
+                id : 6,
+                issues : 'Charge entry delay'
+            },
+            {
+                id : 7,
+                issues : 'Hesitant Outsourcing to vendor'
+            }
+        ]
+
+    }
+
+      
         
-        {
-            id : 1,
-            issues : 'High stress on overheads'
-        },
-        {
-            id : 2,
-            issues : 'Staff attritions'
-        },
-        {
-            id : 3,
-            issues : 'Lower collection rates'
-        },
-        {
-            id : 4,
-            issues : 'Hold buckets / AR out of control'
-        },
-        {
-            id : 5,
-            issues : 'Delay in addressing denials & Issues'
-        },
-        {
-            id : 6,
-            issues : 'Charge entry delay'
-        },
-        {
-            id : 7,
-            issues : 'Hesitant Outsourcing to vendor'
-        }
+     
 
     ],
     modular : [

@@ -14,8 +14,12 @@ export const Nav = {
             link : '/service'
         },
         {
-            name : 'Blogs',
-            link : '/blogs'
+            name : 'Athena',
+            link : '/athena'
+        },
+        {
+            name : 'Why Wellinit',
+            link : '/wellinit'
         },
         {
             name : 'Contact Us',
