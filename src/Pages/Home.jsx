@@ -14,6 +14,9 @@ import Securebanner from '../Components/Securebanner'
 
 function Home() {
 
+    const themecode = "#DEFFFB"
+    const fontcode = "#000"
+
 
 
     return (
@@ -37,7 +40,7 @@ function Home() {
             </section>
 
             <section>
-                <Ourservice/>
+                <Ourservice theme={themecode} colorcode={fontcode}/>
             </section>
 
             {/* <section>

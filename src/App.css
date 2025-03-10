@@ -34,9 +34,9 @@ a{
 .nav-links .nav-items:nth-child(6){
   background-color: #00A9E5;
   padding: 12px 20px;
-  /* border-radius: 5px;e  */
   color: #ffff;
 }
+
 .navsec{
   padding: 25px 0px;
 }
@@ -100,7 +100,6 @@ a{
   border-radius: 20px;
 } */
 .service-sec{
-  background-color: #DEFFFB;
   padding: 100px 0px;
 }
 /* .serv-box{
@@ -706,7 +705,7 @@ object-fit: contain;
 }
 .ci-points{
   background-color: #EEEEEE;
-  padding: 10px 20px;
+  padding:20px 30px;
   border-radius: 40px 0px 0px 40px;
   width: 650px;
 }
@@ -778,5 +777,34 @@ object-fit: contain;
   width: 22px;
   height: 22px;
   object-fit: contain;
-
+}
+.service-name h2{
+  font-size: 64px;
+  font-family: 'Font-Bold' , sans-serif;
+}
+.service-name p{
+  font-size: 20px;
+}
+.service-img img{
+  width: 540px;
+}
+.partner-box{
+  width: 550px;
+  background-color: #25CEBA;
+  padding: 78px 0px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.pb-img{
+  width: 120px
+}
+.pb-name{
+  width: 300px;
+}
+.sp-title h2{
+  font-size: 48px;
+  font-weight: 600;
+}
+.service-partner , .service-intro{
+  padding: 60px 0px;
 }

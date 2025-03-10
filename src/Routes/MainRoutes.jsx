@@ -5,6 +5,7 @@ import About from '../Pages/About'
 import Home from '../Pages/Home'
 import CommonRoutes from './CommonRoutes'
 import Athenapage from '../Pages/Athenapage'
+import Service from '../Pages/Service'
 
 function MainRoutes() {
     return (
@@ -14,6 +15,7 @@ function MainRoutes() {
                 <Route path='/' element={<Home/>}/>
                 <Route path='/about' element={<About/>}/>
                 <Route path='/athena' element={<Athenapage/>}/>
+                <Route path='/service' element={<Service/>}/>
              </Route>
          </Routes>
          </BrowserRouter>

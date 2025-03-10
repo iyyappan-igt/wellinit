@@ -439,7 +439,7 @@
         width: 45px;
         height: 45px;
     }
-    .ci-tik img{
+    .ci-tik img , .jjjj img{
         margin-top: 10px;
     }
     .jjjj {
@@ -856,6 +856,10 @@
     width: 28px;
     height: 24px;
 }
+.ci-points {
+    padding: 10px 20px;
+}
+
 .ci-tik img  , .jjjj img {
     margin-top: 0px;
 }

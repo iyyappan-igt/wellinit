@@ -78,7 +78,7 @@ function Athenapage() {
                 </div>
                 </div>
      
-                <div className="point-btn mt-xl-5 mt-lg-2">
+                <div className="point-btn mt-xl-5 mt-lg-2 text-md-start text-center">
                     <button className="btn text-light">
                       Get Free Consultation
                     </button>
@@ -127,7 +127,7 @@ function Athenapage() {
                     <div className="ci-points value-point d-flex align-items-center gap-lg-5 gap-md-4 gap-3 my-md-3 my-2">
                           <div className="jjjj">
                                <div className="d-flex justify-content-center mt-md-3">
-                               <img src="\assets\white-tick.png" className="img-fluid"/>
+                               <img src="\assets\white-tick.png" className="img-fluid "/>
                                </div>
                           </div>
                           <div className="ci-name fff">

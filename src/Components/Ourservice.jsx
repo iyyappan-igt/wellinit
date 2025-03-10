@@ -1,9 +1,9 @@
 import React from 'react'
 import { Service } from '../Constants/Service'
 
-function Ourservice() {
+function Ourservice({theme , colorcode}) {
     return (
-        <section className='service-sec'>
+        <section className='service-sec' style={{backgroundColor : theme , color : colorcode}}>
             <div className="container">
                 <div className="service-title text-center" data-aos="zoom-in" data-aos-duration="1500">
                     <h2>{Service.title}</h2>
