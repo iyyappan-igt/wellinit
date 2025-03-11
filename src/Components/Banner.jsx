@@ -18,7 +18,8 @@ function Banner() {
               <h3>{Homebanner.title}</h3>
               <p>{Homebanner.description}</p>
               <a href="#letstalk">
-                <button class="button">
+                <button className="btn">Get Free Consultation</button>
+                {/* <button class="button">
                   <span>G</span>
                   <span>e</span>
                   <span>t</span>
@@ -40,7 +41,7 @@ function Banner() {
                   <span>i</span>
                   <span>o</span>
                   <span>n</span>
-                </button>
+                </button> */}
               </a>
             </div>
           </div>

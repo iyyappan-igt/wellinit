@@ -33,7 +33,7 @@ function Athenapage() {
           <div className="ci-title  text-center">
             <h2 data-aos="zoom-in"  data-aos-duration="1500">{Athena.common_issues[0]?.title}</h2>
           </div>
-          <div className="ci-issue mt-lg-5 mt-md-4">
+          <div className="ci-issue mt-lg-5 mt-4">
             {Athena.common_issues[0]?.points.map((data, i) => {
               return (
                   <div className="d-flex justify-content-center" data-aos="fade-up"  data-aos-duration="1500">

@@ -16,6 +16,9 @@ function About() {
           <div className="abt-frme">
             <img src="\assets\about-banner.png" className="img-fluid" />
           </div>
+          <div className="abt-curve position-absolute">
+            <img src="\assets\abtframe.png" className="img-fluid"/>
+          </div>
           <div className="abtbanner-content position-absolute w-100 text-center" data-aos="fade-down" data-aos-duration="1500">
 
             <h2>{Aboucontent?.Bannerframe[0]?.title}</h2>
@@ -25,8 +28,9 @@ function About() {
         </div>
       </div>
     </div>
-    <div className="abt-who ">
-          <div className="container-fluid p-0">
+
+        <div className="abt-who ">
+          <div className="container-fluid p-0 ">
             <div className="row">
               <div className="col-lg-6 col-12 p-0"  data-aos="fade-right" data-aos-duration="1500">
                 <div className="abtwho-cnt h-100 text-lg-start text-center" >
@@ -44,6 +48,7 @@ function About() {
             </div>
           </div>
         </div>
+
         <div className="abt-billing">
           <div className="container p-0">
                  <div className="abt-mission text-center" >

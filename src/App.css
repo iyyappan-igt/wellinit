@@ -35,6 +35,7 @@ a{
 .active{
   background-color: #00A9E5 !important;
   padding: 12px 20px;
+  border-radius: 5px;
 }
 .active a{
   color: white !important;
@@ -67,10 +68,11 @@ a{
   margin: 25px 0px;
 } 
 .banner-content button , .banner-content button:hover{
-  padding: 9px 33px;
+  padding: 9px 40px;
   font-size: 16px;
   background-color: #00A9E5;
   color: #ffff;
+  font-weight: 600;
 }
 .banner-content{
   padding: 70px 20px;
@@ -121,6 +123,7 @@ a{
  color: #ffff;
   padding: 9px 30px;
   margin-top: 50px;
+  font-weight: 600;
 }
 .frame-img{
   top: 0px;
@@ -252,6 +255,10 @@ a{
   font-size: 24px;
   font-weight: 700;
 }
+.blog-info{
+  padding: 20px;
+}
+
 .blog-box .row{
   padding: 10px 20px;
 }
@@ -260,6 +267,7 @@ a{
   background-color: black;
   color: white;
   margin: 30px 0px;
+  font-weight: 600;
 }
 .blog-sec{
   padding: 70px 0px;
@@ -307,10 +315,11 @@ a{
   width: 124px;
   background-color: #000;
   margin-top: 30px;
+  font-weight: 600;
 }
 .footer-details{
 
-  padding: 100px 130px;
+  padding: 100px 50px;
 }
 .footer-sec{
   background-color: #04070D;
@@ -329,6 +338,7 @@ a{
 .footer-details button , .footer-details button:hover{
   background-color: #25CEBA;
   padding: 7px 20px;
+  font-weight: 600;
 
 }
 .sp-social div img{
@@ -353,17 +363,21 @@ a{
   background-color: #25CEBA;
   border-radius: 0px;
   padding: 7px 20px;
+  font-weight: 600;
 }
-.sp-title h3{
+.sp-title h3 , .inf-title h3{
   font-family: 'Font-Bold' , sans-serif;
   font-size: 24px;
 }
-.sp-info p{
-  font-size: 18px;
+.pagings h5{
+  margin: 20px 0px;
+}
+.sp-info p , .pagings h5{
+  font-size: 16px;
   font-weight: 400;
 }
-.sign-up , .footer-bottom .brand-logo{
-  padding: 70px 130px;
+.sign-up , .footer-bottom .brand-logo , .information{
+  padding: 100px 50px;
 }
 
 .sp-info span{
@@ -371,8 +385,8 @@ a{
   cursor: pointer;
 }
 .choose-img img{
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
 }
 .choose-name{
   width: 250px;
@@ -389,9 +403,10 @@ a{
 }
 .choose-button button , .choose-button button:hover{
   font-size: 16px;
-  padding: 8px 34px;
+  padding: 9px 52px;
   background-color: #000;
   color: #fff;
+  font-weight: 600;
 
 }
 .choose-sec{
@@ -474,7 +489,9 @@ height: 500px;
   background-color: #000;
   color: #ffff;
 }
-
+.abt-curve{
+  top: 0px;
+}
 .abtbanner-content{
   top: 11%;
   left: 0px;
@@ -543,8 +560,8 @@ height: 500px;
 }
 
 
-.button {
-    padding: 15px 30px;
+/* .button {
+    padding: 15px 3\0px;
     font-size: 20px;
     font-weight: bold;
     color: white;
@@ -553,7 +570,6 @@ height: 500px;
     border-radius: 5px;
     cursor: pointer;
     position: relative;
-    /* text-transform: uppercase; */
     display: inline-block;
 }
 
@@ -579,8 +595,8 @@ height: 500px;
 
 .button span:nth-child(3) {
     transition-delay: 0.3s;
-}
-
+} */
+/* 
 .button span:nth-child(4) {
     transition-delay: 0.4s;
 }
@@ -627,8 +643,8 @@ height: 500px;
 
 .button span:nth-child(15) {
     transition-delay: 1.5s;
-}
-
+} */
+/* 
 .button span:nth-child(16) {
     transition-delay: 1.6s;
 }
@@ -643,8 +659,8 @@ height: 500px;
 
 .button span:nth-child(19) {
     transition-delay: 1.9s;
-}
-
+} */
+/* 
 .button span:nth-child(20) {
     transition-delay: 2s;
 }
@@ -662,7 +678,7 @@ height: 500px;
 }
 .button span:nth-child(25) {
   transition-delay: 2.5s;
-}
+} */
 
 .pp{
   padding: 0px 2px;
@@ -718,6 +734,7 @@ object-fit: contain;
 }
 .common-issue{
   padding: 80px 0px;
+  background-color: #fff;
 }
 .ci-name h5{
   font-size: 28px;

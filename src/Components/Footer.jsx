@@ -27,14 +27,42 @@ function Footer() {
              </div>
              <div className="footer-bottom">
                 <div className="row">
-                    <div className="col-lg-6 col-md-6">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-12" >
                           <div className="brand-logo h-100 text-center text-md-start">
                                   <Link to="/">  <img src={footer?.footer_logo} className="img-fluid"/></Link>
                                 </div>
                     </div>
-                    <div className="col-lg-6 col-md-6">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-12" >
+                        <div className="information text-light">
+                        <div className="inf-title text-md-start text-center">
+                            <h3>Information</h3>
+                            </div>
+                            <div className="if-page d-flex d-md-block  justify-content-center">
+                                <div className="row">
+                                    <div className="col-lg-6 col-md-6 col-6 d-flex justify-content-center d-md-block">
+                                    <div className="pagings ">
+                                    <h5>About Us</h5>
+                                        <h5>Service</h5>
+                                        <h5>Compliance</h5>
+                                        </div>
+                                      
+                                    </div>
+                                    <div className="col-lg-6 col-md-6 col-6 d-flex justify-content-center d-md-block">
+                                        <div className="pagings">
+                                        <h5>Blogs</h5>
+                                        <h5>Contacts</h5>
+                                        <h5>Terms of Service</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div className="col-xl-4 col-lg-4  col-md-6 col-12">
                         <div className="sign-up text-light">
-                            <div className="sp-title">
+                            <div className="sp-title text-md-start text-center">
                             <h3>Sign Up to Our Newsletter</h3>
                             </div>
                             <div className="sp-input d-flex align-items-center py-4">

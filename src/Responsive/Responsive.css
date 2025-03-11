@@ -131,6 +131,9 @@
     .blog-info h6 {
         font-size: 20px;
     }
+    .blog-info{
+        padding: 10px;
+    }
     .blog-pic {
         margin: 45px 0px;
     }
@@ -144,14 +147,23 @@
         height: 450px
     }
 
-    .sign-up, .footer-bottom .brand-logo , .footer-details {
-        padding: 50px
+    .sign-up, .footer-bottom .brand-logo , .footer-details  , .information{
+        padding: 50px 20px
     }
     .footer-details h2{
         font-size: 40px;
     }
     .footer-details p{
         font-size: 24px;
+    }
+    .sp-title h3, .inf-title h3 {
+        font-size: 22px;
+    }
+    .sp-input input, .sp-input input:focus, .sp-input input:focus-visible {
+        width: 195px;
+    }
+    .sp-input button, .sp-input button:hover {
+        padding: 7px 8px;
     }
     .abtbanner-content {
         top: 10%;
@@ -252,6 +264,7 @@
         padding: 55px 0px;
         margin: 20px 0px;
     }
+    
 
 }
 
@@ -349,7 +362,10 @@
     }
     .blog-btn button {
         margin: 10px 0px;
-        font-size: 12px;
+        font-size: 10px;
+    }
+    .blog-info{
+        padding: 0px;
     }
     .entry-form {
         margin: 0px 50px;
@@ -480,6 +496,9 @@
         width: 100px;
         padding: 20px;
     }
+    .sign-up , .footer-bottom .brand-logo , .information{
+        padding : 30px
+      }
     .common-issue, .modular-service, .report-service {
         padding: 50px 30px;
     }
@@ -616,9 +635,9 @@
         margin: 20px 0px;
     }
     .sub-img {
-        top: 40px;
+        top: 31px;
         width: 182px;
-        left: 76px;
+        left: 171px;
     }
     .choose-title h2, .service-title h2, .customer-say h2, .blog-title h2, .talk-title h2 {
         font-family: 'Font-Bold', sans-serif;
@@ -812,6 +831,8 @@
     font-size: 15px;
 
 }
+
+  
 .sp-input{
     justify-content: center;
 }
@@ -857,6 +878,13 @@
 }
 .scgap{
     margin: 20px 0px;
+}
+.abt-curve img{
+    height: 400px;
+}
+.abtbanner-content {
+    top: 5%;
+    padding: 0px 150px;
 }
 .abtbanner-content h2{
     font-size: 30px;
@@ -917,7 +945,7 @@
     font-size: 42px;
 }
 .athpic img, .wellpic img {
-    width: 90px;
+    width: 100px;
 }
 .ci-tik img  , .jjjj img{
     width: 12px;
@@ -993,7 +1021,24 @@
     font-size: 13px;
     padding: 0px 10px;
 }
-
+.athena-banner img{
+    rotate: 15deg;
+    margin: 15px 0px
+}
+.athena-banner{
+    padding: 40px 0px;
+}
+.athpic {
+    top: 2%;
+    left: 15%;
+}
+.wellpic {
+    right: 8%;
+    top: 22%;
+}
+.if-page .row{
+    width: 350px !important;
+}
 }
 
 @media (width < 425px) {
