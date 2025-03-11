@@ -5,6 +5,8 @@ import Letstalk from "../Components/Letstalk";
 
 
 function About() {
+
+  
   return (
 
     <section>
@@ -14,7 +16,7 @@ function About() {
           <div className="abt-frme">
             <img src="\assets\about-banner.png" className="img-fluid" />
           </div>
-          <div className="abtbanner-content position-absolute w-100 text-center">
+          <div className="abtbanner-content position-absolute w-100 text-center" data-aos="fade-down" data-aos-duration="1500">
 
             <h2>{Aboucontent?.Bannerframe[0]?.title}</h2>
             <p>{Aboucontent?.Bannerframe[0]?.sub_title}</p>
@@ -26,8 +28,8 @@ function About() {
     <div className="abt-who ">
           <div className="container-fluid p-0">
             <div className="row">
-              <div className="col-lg-6 col-12 p-0">
-                <div className="abtwho-cnt h-100 text-lg-start text-center">
+              <div className="col-lg-6 col-12 p-0"  data-aos="fade-right" data-aos-duration="1500">
+                <div className="abtwho-cnt h-100 text-lg-start text-center" >
                   <h2>{Aboucontent?.whowe[0]?.title}</h2>
                   <h5>{Aboucontent?.whowe[0]?.sub_title}</h5>
                   <p>{Aboucontent?.whowe[0]?.content}</p>
@@ -44,13 +46,13 @@ function About() {
         </div>
         <div className="abt-billing">
           <div className="container p-0">
-                 <div className="abt-mission text-center">
-                         <h4>{Aboucontent?.missions[0]?.title}</h4>
-                         <h2>{Aboucontent?.missions[0]?.sub_title}</h2>
-                         <p>{Aboucontent?.missions[0]?.content}</p>
+                 <div className="abt-mission text-center" >
+                         <h4 data-aos="zoom-in"  data-aos-duration="1500">{Aboucontent?.missions[0]?.title}</h4>
+                         <h2 data-aos="fade-left"  data-aos-duration="1500">{Aboucontent?.missions[0]?.sub_title}</h2>
+                         <p data-aos="fade-right"  data-aos-duration="1500">{Aboucontent?.missions[0]?.content}</p>
                  </div>
                  <div className="mission-img text-center">
-                  <img src={Aboucontent?.missions[0]?.image} className="img-fluid"/>
+                  <img src={Aboucontent?.missions[0]?.image} className="img-fluid" data-aos="fade-up"  data-aos-duration="1500"/>
                  </div>
           </div>
         </div>

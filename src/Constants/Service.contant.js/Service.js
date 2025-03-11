@@ -17,11 +17,13 @@ export const servicepage = {
             
           {
             image : "assets/medical-icon.png",
-            name : "Revenue cycle management for Physicians Practices & Hospitals"
+            srt_name : "Revenue cycle management",
+            name : " for Physicians Practices & Hospitals"
           },
           {
               image : "assets/medical-icon_billing.png",
-              name : "Extended Business Office (EBO) Solutions for EHR and Billing Companies"
+              srt_name : "Extended Business Office (EBO) Solutions",
+              name : "for EHR and Billing Companies"
           }
 
          ]

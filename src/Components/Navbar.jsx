@@ -1,9 +1,13 @@
 import React from "react";
 import { Nav } from "../Constants/Nav";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 
 function Navbar() {
+
+     const {pathname} = useLocation()
+     
+
   return (
     <section className="navsec">
         <div className="container">
@@ -29,7 +33,7 @@ function Navbar() {
                 {
                     Nav.titles.map((data , i)=>{
                         return(
-                            <div className="nav-items" key={i}>
+                            <div className={pathname == data?.link ? 'nav-items active' : 'nav-items'}  key={i}>
                               <Link to={data?.link}><h5>{data?.name}</h5></Link>
                                 
                             </div>

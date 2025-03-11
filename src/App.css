@@ -27,14 +27,18 @@ a{
   font-size: 16px;
   font-weight: 600;
   margin: 0px;
+  
 }
 .nav-links{
   gap: 80px;
 }
-.nav-links .nav-items:nth-child(6){
-  background-color: #00A9E5;
+.active{
+  background-color: #00A9E5 !important;
   padding: 12px 20px;
-  color: #ffff;
+}
+.active a{
+  color: white !important;
+
 }
 
 .navsec{
@@ -273,11 +277,14 @@ a{
 .entry-form{
   margin: 0px 215px;
 }
+.forms{
+  padding: 20px 0px;
+}
 .input-grp input , .select-grp select , .text-grp textarea , .input-grp input:focus , .select-grp select:focus-visible{
   padding: 20px 30px;
     border-radius: 43px;
+    margin-bottom: 6px;
     width: 100%;
-    margin: 25px 0px 5px 0px;
     border: 2px solid #25CEBA !important;
     box-shadow: none !important;
     outline: none !important;
@@ -778,33 +785,46 @@ object-fit: contain;
   height: 22px;
   object-fit: contain;
 }
+.service-intro{
+  margin: 0px 230px;
+}
 .service-name h2{
   font-size: 64px;
   font-family: 'Font-Bold' , sans-serif;
 }
 .service-name p{
   font-size: 20px;
+  margin: 25px 0px;
 }
 .service-img img{
   width: 540px;
+  margin-top: 30px;
 }
+
 .partner-box{
-  width: 550px;
+  width: 600px;
   background-color: #25CEBA;
   padding: 78px 0px;
   border-radius: 20px;
-  margin-top: 50px;
+  margin: 30px 0px
 }
 .pb-img{
-  width: 120px
+  width: 125px
 }
 .pb-name{
   width: 300px;
 }
+.pb-name h4{
+  font-size: 28px;
+}
 .sp-title h2{
   font-size: 48px;
   font-weight: 600;
+  margin-bottom: 50px;
 }
 .service-partner , .service-intro{
   padding: 60px 0px;
+}
+.bold-name{
+  font-family: "Font-Bold" , sans-serif;
 }

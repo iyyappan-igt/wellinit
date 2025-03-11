@@ -227,6 +227,32 @@
       .value-point{
         width: 800px !important;
       }
+      .service-intro {
+        margin: 0px 100px;
+    }
+    .service-name h2{
+        font-size: 52px;
+    }
+    .sp-title h2{
+        font-size: 40px;
+    }
+    .service-img img {
+        width: 480px;
+    }
+    .pb-name h4 {
+        font-size: 25px;
+    }
+    .pb-name{
+       width: 260px;
+    }
+    .pb-img {
+        width: 100px;
+    }
+    .partner-box{
+        padding: 55px 0px;
+        margin: 20px 0px;
+    }
+
 }
 
 @media (width <  992px) {
@@ -234,6 +260,9 @@
     .banner-content p {
         font-size: 18px;
         margin: 20px 0px;
+    }
+    .forms{
+        padding: 15px;
     }
 
     .banner-place1 {
@@ -411,6 +440,37 @@
     .common-issue , .modular-service , .report-service {
         padding: 60px 0px;
     }
+    .service-intro{
+        margin: 0px 50px;
+    }
+    .service-img img {
+        width: 400px;
+    }
+    .service-name p {
+        font-size: 18px;
+    }
+    .service-name h2 {
+        font-size: 45px;
+    }
+    .service-partner, .service-intro {
+        padding: 50px 0px;
+    }
+    .pb-img {
+        width: 65px;
+    }
+    .pb-name h4 {
+        font-size: 19px;
+    }
+    .pb-name{
+        width: 230px;
+    }
+    .partner-box{
+        width: 100%;
+    }
+    .sp-title h2 {
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
 
 
 }
@@ -425,6 +485,9 @@
     }
     .athena-frame .container h4, .ci-title h2 {
         font-size: 24px;
+    }
+    .forms{
+        padding: 10px 0px;
     }
     .athena-frame .container h2 {
         font-size: 60px;
@@ -461,6 +524,19 @@
     }
     .fff {
         width: 100%;
+    }
+    .service-img img {
+        width: 350px;
+    }
+    .service-name h2{
+        font-size: 35px;
+    }
+    .sp-title h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .partner-box {
+        width: 400px;
     }
 }
 
@@ -683,7 +759,6 @@
        width: 100%;
        padding: 14px 30px;
        font-size: 12px;
-       margin: 10px 0px;
        border-radius: 28px;
       }
       .input-grp input::placeholder , .select-grp select , .text-grp textarea::placeholder{
@@ -884,6 +959,41 @@
 .report-img img, .mo-img img {
     width: 300px;
 }
+.service-partner, .service-intro {
+    padding: 40px 30px;
+    margin: 0px;
+}
+.service-intro h2{
+    font-size: 30px;
+}
+.service-intro p{
+    font-size: 16px;
+}
+.service-img img {
+    width: 300px;
+    margin-top: 30px;
+}
+.sp-title h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.partner-box{
+    width: 100%;
+}
+.pb-img {
+    width: 50px;
+}
+.pb-name h4{
+    font-size: 16px;
+}
+.pb-name{
+    width: 190px;
+}
+.text-danger{
+    font-size: 13px;
+    padding: 0px 10px;
+}
+
 }
 
 @media (width < 425px) {

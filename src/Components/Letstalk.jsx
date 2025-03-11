@@ -51,22 +51,24 @@ function Letstalk() {
         <div className="entry-form">
           <form onSubmit={Formik.handleSubmit}>
             <div className="row">
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-md-6 col-12 forms">
                 <div className="input-grp">
                   <input
                     type="text"
                     class="form-control"
                     placeholder="First Name"
                     {...Formik.getFieldProps("first_name")}
+                    
                   />
-                  {Formik.touched.first_name && Formik.errors.first_name ? (
+                
+                </div>
+                {Formik.touched.first_name && Formik.errors.first_name ? (
                     <span className="text-danger">
                       {Formik.errors.first_name}
                     </span>
                   ) : null}
-                </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-md-6 col-12 forms">
                 <div className="input-grp">
                   <input
                     type="text"
@@ -74,14 +76,15 @@ function Letstalk() {
                     placeholder="Last Name"
                     {...Formik.getFieldProps("last_name")}
                   />
-                  {Formik.touched.last_name && Formik.errors.last_name ? (
+             
+                </div>
+                {Formik.touched.last_name && Formik.errors.last_name ? (
                     <span className="text-danger">
                       {Formik.errors.last_name}
                     </span>
                   ) : null}
-                </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-md-6  col-12 forms">
                 <div className="input-grp">
                   <input
                     type="text"
@@ -89,12 +92,13 @@ function Letstalk() {
                     placeholder="Mobile"
                     {...Formik.getFieldProps("mobile")}
                   />
-                  {Formik.touched.mobile && Formik.errors.mobile ? (
+                
+                </div>
+                {Formik.touched.mobile && Formik.errors.mobile ? (
                     <span className="text-danger">{Formik.errors.mobile}</span>
                   ) : null}
-                </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 col-md-6 col-12 forms">
                 <div className="input-grp">
                   <input
                     type="text"
@@ -102,12 +106,13 @@ function Letstalk() {
                     placeholder="E-Mail"
                     {...Formik.getFieldProps("email")}
                   />
-                  {Formik.touched.email && Formik.errors.email ? (
+             
+                </div>
+                {Formik.touched.email && Formik.errors.email ? (
                     <span className="text-danger">{Formik.errors.email}</span>
                   ) : null}
-                </div>
               </div>
-              <div className="col-lg-12">
+              <div className="col-lg-12 col-md-12 col-12 forms">
                 <div className="select-grp">
                   <select
                     class="custom-select"
@@ -118,12 +123,13 @@ function Letstalk() {
                     <option value="two">Two</option>
                     <option value="three">Three</option>
                   </select>
-                  {Formik.touched.menu && Formik.errors.menu ? (
+              
+                </div>
+                {Formik.touched.menu && Formik.errors.menu ? (
                     <span className="text-danger">{Formik.errors.menu}</span>
                   ) : null}
-                </div>
               </div>
-              <div className="col-lg-12">
+              <div className="col-lg-12 col-md-12 col-12 forms">
                 <div className="text-grp">
                   <textarea
                     class="form-control"
@@ -131,10 +137,11 @@ function Letstalk() {
                     rows="9"
                     {...Formik.getFieldProps("message")}
                   ></textarea>
-                  {Formik.touched.message && Formik.errors.message ? (
+             
+                </div>
+                {Formik.touched.message && Formik.errors.message ? (
                     <span className="text-danger">{Formik.errors.message}</span>
                   ) : null}
-                </div>
               </div>
               <div className="submit-btn d-flex justify-content-center ">
                 <button className="btn text-light" type="submit">
