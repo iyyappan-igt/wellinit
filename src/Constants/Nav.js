@@ -23,7 +23,7 @@ export const Nav = {
         },
         {
             name : 'Contact Us',
-            link : '/contactus'
+            link : '/contact'
         }
     ]
 }

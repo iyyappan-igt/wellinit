@@ -8,7 +8,7 @@ export const blogs = {
         },
         {
             blogs_img : '/assets/blog2.png',
-            blogs_name : 'More about Health Insurance Premiums ins India',
+            blogs_name : 'More about Health Insurance Premiums in India',
             blogs_btn : 'Read More'
 
         }

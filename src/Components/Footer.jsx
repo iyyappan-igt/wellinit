@@ -27,12 +27,12 @@ function Footer() {
              </div>
              <div className="footer-bottom">
                 <div className="row">
-                    <div className="col-xl-4 col-lg-4 col-md-6 col-12" >
+                    <div className="col-xl-4 col-lg-4 col-sm-6 col-12" >
                           <div className="brand-logo h-100 text-center text-md-start">
                                   <Link to="/">  <img src={footer?.footer_logo} className="img-fluid"/></Link>
                                 </div>
                     </div>
-                    <div className="col-xl-4 col-lg-4 col-md-6 col-12" >
+                    <div className="col-xl-4 col-lg-4  col-sm-6 col-12" >
                         <div className="information text-light">
                         <div className="inf-title text-md-start text-center">
                             <h3>Information</h3>
@@ -60,7 +60,7 @@ function Footer() {
                         </div>
 
                     </div>
-                    <div className="col-xl-4 col-lg-4  col-md-6 col-12">
+                    <div className="col-xl-4 col-lg-4   col-sm-6 col-12">
                         <div className="sign-up text-light">
                             <div className="sp-title text-md-start text-center">
                             <h3>Sign Up to Our Newsletter</h3>

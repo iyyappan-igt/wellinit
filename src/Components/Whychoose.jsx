@@ -25,7 +25,7 @@ function Whychoose() {
                   <img src="\assets\icon2.png" className="img-fluid"/>
                  </div>
                  <div className="choose-name ">
-                  <h5>Reduced Denial Rates & Faster Reimbursements</h5>
+                  <h5>Cost efficient & Scalability</h5>
                  </div>
              </div>
             </div>
@@ -35,7 +35,7 @@ function Whychoose() {
                   <img src="\assets\icon5.png" className="img-fluid"/>
                  </div>
                  <div className="choose-name">
-                  <h5>HIPAA-Compliant & Secure Operations</h5>
+                  <h5>Seamless Technology Integration</h5>
                  </div>
              </div>
             </div>
@@ -45,7 +45,7 @@ function Whychoose() {
                   <img src="\assets\icon3.png" className="img-fluid"/>
                  </div>
                  <div className="choose-name">
-                  <h5>Dedicated Account Manager for Every Client</h5>
+                  <h5>Boost Net collections rate</h5>
                  </div>
              </div>
             </div>
@@ -55,17 +55,17 @@ function Whychoose() {
                   <img src="\assets\icon4.png" className="img-fluid"/>
                  </div>
                  <div className="choose-name">
-                  <h5>Seamless Integration with EHR & Billing Systems</h5>
+                  <h5>Comprehensive Revenue Cycle Management</h5>
                  </div>
              </div>
             </div>
             <div className="col-lg-4 col-md-6">
             <div className="choose-box d-flex align-items-center justify-content-center gap-4">
                  <div className="choose-img">
-                  <img src="\assets\icon4.png" className="img-fluid"/>
+                  <img src="\assets\icon6.png" className="img-fluid"/>
                  </div>
                  <div className="choose-name">
-                  <h5>Seamless Integration with EHR & Billing Systems</h5>
+                  <h5>HIPAA-Compliant Data Security</h5>
                  </div>
              </div>
             </div>

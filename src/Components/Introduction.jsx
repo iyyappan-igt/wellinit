@@ -7,15 +7,15 @@ function Introduction() {
             <div className="container-fluid p-0">
                 <div className="row">
                     <div className="col-lg-6 d-none  d-lg-block p-0">
-                        <div className="into-img position-relative h-100">
-                            <img src={Intro.Mainbanner} className='img-fluid h-100'/>
+                        <div className="into-img position-relative ">
+                            <img src={Intro.Mainbanner} className='img-fluid '/>
                             <div className="sub-img position-absolute">
                                 <img src={Intro.Subanner} className='img-fluid'/>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-12 col-12 p-0 h-100">
-                        <div className="intro-content text-center h-100" data-aos="fade-left"
+                    <div className="col-lg-6 col-md-12 col-12 p-0 ">
+                        <div className="intro-content text-lg-start text-center" data-aos="fade-left"
    data-aos-duration="1500">
                             <h5>{Intro.Title}</h5>
                             <h2>{Intro.Subtitle}</h2>

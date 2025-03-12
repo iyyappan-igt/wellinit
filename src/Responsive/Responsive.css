@@ -1,4 +1,6 @@
 
+
+
 @media (width < 1200px ) {
 
     .brand-logo img {
@@ -147,14 +149,21 @@
         height: 450px
     }
 
-    .sign-up, .footer-bottom .brand-logo , .footer-details  , .information{
+    /* .sign-up, .footer-bottom .brand-logo , .footer-details  , .information{
         padding: 50px 20px
-    }
+    } */
+.footer-details{
+    padding: 37px 49px;
+}
+.footer-bottom{
+    padding: 50px 35px
+}
+
     .footer-details h2{
-        font-size: 40px;
+        font-size: 35px;
     }
     .footer-details p{
-        font-size: 24px;
+        font-size: 22px;
     }
     .sp-title h3, .inf-title h3 {
         font-size: 22px;
@@ -370,12 +379,10 @@
     .entry-form {
         margin: 0px 50px;
     }
-    .sign-up, .footer-bottom .brand-logo, .footer-details {
-        padding: 50px 30px;
+
+    .footer-details {
+        padding: 41px 38px;
     }
-    /* .footer-details {
-        padding: 30px;
-    } */
     .footer-bg , .footer-bg img{
         height: 100%;
         object-fit: cover;
@@ -488,6 +495,11 @@
         margin-bottom: 35px;
     }
 
+    .ct-form {
+        top: 14%;
+        left: 14%;
+        width: 550px;
+    }
 
 }
 
@@ -556,6 +568,15 @@
     }
     .partner-box {
         width: 400px;
+    }
+    .ct-form {
+        top: 14%;
+        left: 11%;
+        width: 450px;
+    }
+    .ct-form .entry-form button, .ct-form .entry-form button:hover {
+        width: 100%;
+        font-size: 18px;
     }
 }
 
@@ -814,7 +835,7 @@
     }
 
    .footer-bottom .brand-logo , .sign-up{
-    padding: 30px;
+    padding: 30px 0px;
    }
    .sp-title h3 {
     font-family: 'Font-Bold', sans-serif;
@@ -1038,6 +1059,27 @@
 }
 .if-page .row{
     width: 350px !important;
+}
+.ct-img img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+.ct-form {
+    top: 5%;
+    left: 8%;
+    width: 355px;
+}
+.ct-form .entry-form .forms {
+    padding: 6px 0px;
+}
+.ct-form .entry-form button, .ct-form .entry-form button:hover{
+    font-size: 13px;
+    padding: 8px;
+    margin-top: 5px;
+}
+.input-grp input, .select-grp select, .text-grp textarea, .input-grp input:focus, .select-grp select:focus-visible{
+    margin-bottom: 0px;
 }
 }
 

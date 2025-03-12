@@ -6,6 +6,7 @@ import Home from '../Pages/Home'
 import CommonRoutes from './CommonRoutes'
 import Athenapage from '../Pages/Athenapage'
 import Service from '../Pages/Service'
+import Contact from '../Pages/Contact'
 
 export const ScrollTop = ()=>{
     const {pathname} = useLocation()
@@ -25,6 +26,7 @@ function MainRoutes() {
                 <Route path='/about' element={<About/>}/>
                 <Route path='/athena' element={<Athenapage/>}/>
                 <Route path='/service' element={<Service/>}/>
+                <Route path='/contact' element={<Contact/>}/>
              </Route>
          </Routes>
          </BrowserRouter>
