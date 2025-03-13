@@ -320,9 +320,6 @@
         height: 450px;
         width: 100%;
     }
-    .footer-bottom{
-        padding: 70px 35px
-    }
     
     .blog-info h6 {
         font-size: 15px;
@@ -639,8 +636,8 @@
     .if-page .row{
         width: 350px !important;
     }
-    .footer-top .row .col-12 , .footer-top .row {
-        height: 350px !important;
+    .footer-top .row .col-12{
+        height: 350px;
     }
     .footer-details {
         padding: 60px 70px;
@@ -1172,7 +1169,7 @@
 }
 
 .ct-img img {
-    height: 700px;
+    height: 600px;
     width: 100%;
     object-fit: cover;
 }
