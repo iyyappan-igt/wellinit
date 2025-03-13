@@ -17,7 +17,7 @@ function Contact() {
   const Formik = useFormik({
     initialValues: {
       first_name: "",
-    //   last_name: "",
+      //   last_name: "",
       mobile: "",
       email: "",
       menu: "",
@@ -48,25 +48,28 @@ function Contact() {
           </div>
           <div className="ct-form position-absolute">
             <div className="container">
-            <div className="entry-form">
-              <form onSubmit={Formik.handleSubmit}>
-                <div className="row">
-                  <div className="col-12 forms">
-                    <div className="input-grp">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="First Name"
-                        {...Formik.getFieldProps("first_name")}
-                      />
-                    </div>
-                    {Formik.touched.first_name && Formik.errors.first_name ? (
-                      <span className="text-danger">
-                        {Formik.errors.first_name}
-                      </span>
-                    ) : null}
+              <div className="entry-form">
+              <div className="ct-title text-md-start text-center mb-3">
+                    <h2>Connect with us for Partnerships</h2>
                   </div>
-                  {/* <div className="col-12 forms">
+                <form onSubmit={Formik.handleSubmit}>
+                  <div className="row">
+                    <div className="col-12 forms">
+                      <div className="input-grp">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="First Name"
+                          {...Formik.getFieldProps("first_name")}
+                        />
+                      </div>
+                      {Formik.touched.first_name && Formik.errors.first_name ? (
+                        <span className="text-danger">
+                          {Formik.errors.first_name}
+                        </span>
+                      ) : null}
+                    </div>
+                    {/* <div className="col-12 forms">
                 <div className="input-grp">
                   <input
                     type="text"
@@ -82,79 +85,82 @@ function Contact() {
                     </span>
                   ) : null}
               </div> */}
-                  <div className=" col-12 forms">
-                    <div className="input-grp">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Mobile"
-                        {...Formik.getFieldProps("mobile")}
-                      />
+                    <div className=" col-12 forms">
+                      <div className="input-grp">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Mobile"
+                          {...Formik.getFieldProps("mobile")}
+                        />
+                      </div>
+                      {Formik.touched.mobile && Formik.errors.mobile ? (
+                        <span className="text-danger">
+                          {Formik.errors.mobile}
+                        </span>
+                      ) : null}
                     </div>
-                    {Formik.touched.mobile && Formik.errors.mobile ? (
-                      <span className="text-danger">
-                        {Formik.errors.mobile}
-                      </span>
-                    ) : null}
-                  </div>
-                  <div className="col-12 forms">
-                    <div className="input-grp">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="E-Mail"
-                        {...Formik.getFieldProps("email")}
-                      />
+                    <div className="col-12 forms">
+                      <div className="input-grp">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="E-Mail"
+                          {...Formik.getFieldProps("email")}
+                        />
+                      </div>
+                      {Formik.touched.email && Formik.errors.email ? (
+                        <span className="text-danger">
+                          {Formik.errors.email}
+                        </span>
+                      ) : null}
                     </div>
-                    {Formik.touched.email && Formik.errors.email ? (
-                      <span className="text-danger">{Formik.errors.email}</span>
-                    ) : null}
-                  </div>
-                  <div className="col-lg-12 col-md-12 col-12 forms">
-                    <div className="select-grp">
-                      <select
-                        class="custom-select"
-                        {...Formik.getFieldProps("menu")}
-                      >
-                        <option selected>Open this select menu</option>
-                        <option value="one">One</option>
-                        <option value="two">Two</option>
-                        <option value="three">Three</option>
-                      </select>
+                    <div className="col-lg-12 col-md-12 col-12 forms">
+                      <div className="select-grp">
+                        <select
+                          class="custom-select"
+                          {...Formik.getFieldProps("menu")}
+                        >
+                          <option selected>Open this select menu</option>
+                          <option value="one">One</option>
+                          <option value="two">Two</option>
+                          <option value="three">Three</option>
+                        </select>
+                      </div>
+                      {Formik.touched.menu && Formik.errors.menu ? (
+                        <span className="text-danger">
+                          {Formik.errors.menu}
+                        </span>
+                      ) : null}
                     </div>
-                    {Formik.touched.menu && Formik.errors.menu ? (
-                      <span className="text-danger">{Formik.errors.menu}</span>
-                    ) : null}
-                  </div>
-                  <div className="col-lg-12 col-md-12 col-12 forms">
-                    <div className="text-grp">
-                      <textarea
-                        class="form-control"
-                        placeholder="Message"
-                        rows="5"
-                        {...Formik.getFieldProps("message")}
-                      ></textarea>
+                    <div className="col-lg-12 col-md-12 col-12 forms">
+                      <div className="text-grp">
+                        <textarea
+                          class="form-control"
+                          placeholder="Message"
+                          rows="5"
+                          {...Formik.getFieldProps("message")}
+                        ></textarea>
+                      </div>
+                      {Formik.touched.message && Formik.errors.message ? (
+                        <span className="text-danger">
+                          {Formik.errors.message}
+                        </span>
+                      ) : null}
                     </div>
-                    {Formik.touched.message && Formik.errors.message ? (
-                      <span className="text-danger">
-                        {Formik.errors.message}
-                      </span>
-                    ) : null}
+                    <div className="submit-btn d-flex justify-content-md-start justify-content-center">
+                      <button className="btn text-light" type="submit">
+                        Request a Callback
+                      </button>
+                    </div>
                   </div>
-                  <div className="submit-btn d-flex justify-content-lg-start justify-content-center">
-                    <button className="btn text-light" type="submit">
-                     Request a Callback
-                    </button>
-                  </div>
-                </div>
-              </form>
+                </form>
+              </div>
             </div>
-            </div>
-        
           </div>
         </div>
       </div>
-      <ToastContainer position="top-center"/>
+      <ToastContainer position="top-center" />
     </section>
   );
 }

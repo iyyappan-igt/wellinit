@@ -97,7 +97,7 @@ a{
   width: 268px;
   left: 60px;
 }
-.choose-title h2 , .service-title h2 , .customer-say h2 , .blog-title h2 , .talk-title h2  {
+.choose-title h2 , .service-title h2 , .customer-say h2 , .blog-title h2 , .talk-title h2 , .ct-title h2 {
   font-family: 'Font-Bold' , sans-serif;
   font-size: 48px;
 }
@@ -852,17 +852,19 @@ object-fit: contain;
   font-family: "Font-Bold" , sans-serif;
 }
 .ct-img img{
-  height: 873px;
+  height: 900px;
   width: 100%;
   object-fit: cover;
 }
 .ct-form{
-  top: 14%;
-  left: 9%;
-  width: 550px;
+  top: 50px;
+  width: 100%;
 }
+
+
 .ct-form .entry-form{
   margin: 0px;
+  width: 550px;
 }
 .ct-form .entry-form .forms{
   padding: 8px 0px;
@@ -878,7 +880,11 @@ object-fit: contain;
 .ct-form .entry-form textarea{
   border-radius: 25px;
 }
+.ct-form .entry-form input ,.ct-form .entry-form select , .ct-form .entry-form  textarea{
+  margin-bottom: 0px;
+}
 .text-danger{
   font-size: 13px;
   padding: 0px 16px;
+
 }
