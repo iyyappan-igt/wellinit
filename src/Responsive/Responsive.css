@@ -529,6 +529,9 @@
     .ci-points {
         width: 100%;
     }
+    .ct-title h2{
+        font-size: 30px;
+    }
     .ci-tik {
         width: 45px;
         height: 45px;
@@ -659,7 +662,7 @@
         width: 182px;
         left: 171px;
     }
-    .choose-title h2, .service-title h2, .customer-say h2, .blog-title h2, .talk-title h2 , .ct-title h2 {
+    .choose-title h2, .service-title h2, .customer-say h2, .blog-title h2, .talk-title h2  {
         font-family: 'Font-Bold', sans-serif;
         font-size: 24px;
     }
@@ -1069,7 +1072,7 @@
 }
 .ct-form .entry-form{
     width: 100%;
-    padding: 0px 10px;
+    padding: 0px 20px;
 }
 .ct-form .entry-form .forms {
     padding: 6px 0px;
