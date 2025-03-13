@@ -36,7 +36,7 @@ function Security() {
       <section className="secure-div">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-xl-5 col-lg-6">
+            <div className="col-xl-5 col-lg-6 col-md-7 col-12">
               <div className="secure-content "
               data-aos="fade-right"
              data-aos-duration="1500">
@@ -81,7 +81,7 @@ function Security() {
                 </div>
               </div>
             </div>
-            <div className="col-xl-7 col-lg-6 mapimg">
+            <div className="col-xl-7 col-lg-6 col-md-5 col-12 mapimg">
               <div className="athena text-center">
                 <img src="assets\athena.png" className="img-fluid" />
               </div>

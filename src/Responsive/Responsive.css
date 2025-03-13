@@ -11,6 +11,8 @@
     .nav-links {
         gap: 50px;
     }
+
+    
     .navsec{
         padding: 10px 0px;
     }
@@ -20,7 +22,7 @@
         top: 110px;
     }
     .banner-place1 {
-        width: 55%;
+        width: 52%;
         height: 500px;
     }
     .banner-place2{
@@ -33,13 +35,16 @@
         font-size: 20px;
         margin: 20px 0px;
     }
-    .intro-content {
-        width: 100%;
+    .into-img{
         height: 100%;
-        padding: 30px;
     }
+    .intro-content{
+        padding: 20px;
+    }
+
     .into-img img{
         object-fit: cover;
+        height: 100%;
     }
     .sub-img {
         top: 60px;
@@ -273,6 +278,12 @@
         padding: 55px 0px;
         margin: 20px 0px;
     }
+    .fb-overlay{
+        left: -36px;
+    }
+    .lk-overlay{
+        left: -155px;
+    }
     
 
 }
@@ -288,39 +299,59 @@
     }
 
     .banner-place1 {
-        width: 55%;
-        height: 380px;
+        width: 54%;
+        height: 450px;
     }
     .banner-content {
         padding: 0px;
-        left: 53px;
-        top: 67px;
+        left: 40px;
+        top: 98px;
         width: 370px !important;
     }
     .banner-place2 {
-        height: 380px;
+        height: 450px;
     }
     .banner-content h3, .intro-content h2 , .choose-title h2, .service-title h2, .customer-say h2,
      .blog-title h2, .talk-title h2 , .sc-title h5  , .footer-details h2 , .abtbanner-content h2 , .abtwho-cnt h2 , .ct-title h2{
-        font-size: 35px;
+        font-size: 30px;
     }
-    .into-img img {
+    .into-img img , .main-intro {
         object-fit: cover;
         height: 450px;
         width: 100%;
     }
+    .footer-bottom{
+        padding: 70px 35px
+    }
+    
     .blog-info h6 {
         font-size: 15px;
     }
     .sub-img img{
-        width: 150px !important;
-        height: 100% !important
+       width: 260px !important;
+       height: 90px !important;
     }
+    .intro-content{
+        position: absolute;
+        padding: 30px 50px;
+        z-index: 1;
+    }
+    .ic-overlay2{
+        background:url('/public/assets/intro-bg\(2\).png');
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 600px;
+       background-size: cover;
+       background-repeat: no-repeat;
+       z-index: 1;
+     }
     .sub-img {
-        top: 30px;
-        left: 204px;
+        top: 14px;
+        left: 188px;
+        z-index: 1;
     }
-    .choose-sec, .service-sec , .intro-content , .blog-sec  {
+    .choose-sec, .service-sec  , .blog-sec  {
         padding: 50px 30px;
     }
     .choose-img img {
@@ -381,7 +412,7 @@
     }
 
     .footer-details {
-        padding: 41px 38px;
+        padding: 50px 38px;
     }
     .footer-bg , .footer-bg img{
         height: 100%;
@@ -497,13 +528,39 @@
     .ct-form{
         top: 85px;
     }
-    
-
-
+    .fb-overlay{
+        left: -160px;
+    }
 
 }
 
 @media (width < 768px) {
+
+
+    .banner-content {
+        padding: 0px;
+        left: 22px;
+        top: 75px;
+        width: 300px !important;
+    }
+    .main-intro{
+        height: 470px;
+        background-color: #efefef;
+    }
+    .intro-content p{
+        margin: 18px 0px;
+    }
+    .sub-img img {
+        width: 147px !important;
+        height: 73px !important;
+    }
+    .choose-box{
+        padding: 15px 0px;
+    }
+    .banner-content h3, .intro-content h2, .choose-title h2, .service-title h2, .customer-say h2, .blog-title h2, .talk-title h2, .sc-title h5, .footer-details h2, .abtbanner-content h2, .abtwho-cnt h2, .ct-title h2 {
+        font-size: 32px;
+    }
+
     .athpic img, .wellpic img {
         width: 100px;
         padding: 20px;
@@ -579,10 +636,43 @@
         width: 100%;
         font-size: 18px;
     }
+    .if-page .row{
+        width: 350px !important;
+    }
+    .footer-top .row .col-12{
+        height: 350px;
+    }
+    .footer-details {
+        padding: 60px 70px;
+    }
+
+    .footer-bg img{
+        width: 100%;
+    }
+    .fb-overlay2{
+        background: url('/public/assets/footerbg\(mb\).png');
+        height: 600px !important;
+        top: 0px;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    .lk-overlay2{
+        background: url('/public/assets/securebg.png');
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        top: 0px;
+        height: 485px !important;
+        left: 0px;
+        }
 
 }
 
 @media (width < 576px) {
+
+    .intro-content h2{
+        margin: 16px 0px;
+    }
     
     .willenet .nav-items{
         margin: 13px 0px;
@@ -592,10 +682,15 @@
         object-fit: contain;
     }
     .banner-place2 {
-        width: 520px;
-        height: 375px;
+        width: 100%;
+        height: 350px;
         background-size: cover;
         margin-top: 330px;
+    }
+
+    .sub-img img {
+        width: 94px !important;
+        height: 47px !important;
     }
     .banner-place1 {
         width: 100%;
@@ -603,10 +698,11 @@
         background-size: cover;
     }
     .banner-content {
-        padding: 0px;
-        left: 40px;
+        padding: 0px 50px;
+        left: 0px;
         top: 40px;
         text-align: center;
+        width: 100% !important;
     }
     .navsec{
         padding: 0px;
@@ -658,9 +754,9 @@
         margin: 20px 0px;
     }
     .sub-img {
-        top: 31px;
-        width: 182px;
-        left: 171px;
+        top: 42px;
+        width: 100%;
+        left: 159px;
     }
     .choose-title h2, .service-title h2, .customer-say h2, .blog-title h2, .talk-title h2  {
         font-family: 'Font-Bold', sans-serif;
@@ -693,7 +789,22 @@
         font-size: 18px;
         margin: 0px;
     }
-
+    .ic-overlay2 {
+        background: url('/public/assets/intro-bg\(2\).png');
+        top: 142px;
+        left: 0px;
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+    .into-img img {
+        height: 350px;
+    }
+    .main-intro{
+        height: 400px;
+    }
     .choose-button button{
         width: 100%;
     }
@@ -1059,9 +1170,7 @@
     right: 8%;
     top: 22%;
 }
-.if-page .row{
-    width: 350px !important;
-}
+
 .ct-img img {
     height: 600px;
     width: 100%;
@@ -1087,15 +1196,3 @@
 }
 }
 
-@media (width < 425px) {
-
-    .banner-content {
-        left: 16px;
-        padding: 0;
-        text-align: center;
-        top: 40px;
-        width: 100%;
-        padding: 0px 30px;
-    }
-    
-}

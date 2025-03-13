@@ -32,15 +32,21 @@ function About() {
         <div className="abt-who ">
           <div className="container-fluid p-0 ">
             <div className="row">
-              <div className="col-lg-6 col-12 p-0"  data-aos="fade-right" data-aos-duration="1500">
-                <div className="abtwho-cnt h-100 text-lg-start text-center" >
-                  <h2>{Aboucontent?.whowe[0]?.title}</h2>
+              <div className="col-lg-6  col-12 p-0"  >
+               <div className="whofm position-relative h-100">
+                <div className="who-overlay position-absolute d-lg-block d-none"></div>
+               <div className="abtwho-cnt h-100 text-lg-start text-center" >
+                <div data-aos="fade-right" data-aos-duration="1500">
+                <h2>{Aboucontent?.whowe[0]?.title}</h2>
                   <h5>{Aboucontent?.whowe[0]?.sub_title}</h5>
                   <p>{Aboucontent?.whowe[0]?.content}</p>
                   <p>{Aboucontent?.whowe[0]?.content_2}</p>
                 </div>
+                  
+                </div>
+               </div>
               </div>
-              <div className="col-lg-6 col-12 p-0 ">
+              <div className="col-lg-6  col-12 p-0 ">
                 <div className="abtwho-pic h-100">
                   <img src="\assets\medteam.png" className="img-fluid h-100" />
                 </div>
