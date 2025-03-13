@@ -639,8 +639,8 @@
     .if-page .row{
         width: 350px !important;
     }
-    .footer-top .row .col-12{
-        height: 350px;
+    .footer-top .row .col-12 , .footer-top .row {
+        height: 350px !important;
     }
     .footer-details {
         padding: 60px 70px;
@@ -1172,7 +1172,7 @@
 }
 
 .ct-img img {
-    height: 600px;
+    height: 700px;
     width: 100%;
     object-fit: cover;
 }
