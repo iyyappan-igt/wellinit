@@ -1,9 +1,11 @@
 import React from "react";
 import { footer } from "../Constants/Footer";
 import { Nav } from "../Constants/Nav";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Footer() {
+
+
   return (
     <section className="footer-sec">
       <div className="container-fluid">
@@ -50,15 +52,15 @@ function Footer() {
                   <div className="row">
                     <div className="col-lg-6 col-md-6 col-6 d-flex justify-content-center d-md-block">
                       <div className="pagings ">
-                        <h5>About Us</h5>
-                        <h5>Service</h5>
+                       <Link to="/about"><h5>About Us</h5></Link>
+                       <Link to="/service"> <h5>Service</h5></Link>
                         <h5>Compliance</h5>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-6 d-flex justify-content-center d-md-block">
                       <div className="pagings">
                         <h5>Blogs</h5>
-                        <h5>Contacts</h5>
+                       <Link to="/contact"> <h5>Contacts</h5></Link>
                         <h5>Terms of Service</h5>
                       </div>
                     </div>

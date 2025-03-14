@@ -36,11 +36,11 @@ function Security() {
       <section className="secure-div">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-xl-5 col-lg-6 col-md-7 col-12">
+            <div className="col-xl-5 col-lg-6 col-md-6 col-12">
               <div className="secure-content "
               data-aos="fade-right"
              data-aos-duration="1500">
-                <div className="sc-title text-center text-lg-start">
+                <div className="sc-title text-center text-md-start">
                   <h5>
                     Powering Revenue Growth with <span>AthenaOne</span>
                   </h5>
@@ -76,12 +76,12 @@ function Security() {
                   </div>
                 </div>
 
-                <div className="sc-details text-lg-start text-center">
+                <div className="sc-details text-md-start text-center">
                   <Link to="/athena"><button className="btn">Know More</button></Link>
                 </div>
               </div>
             </div>
-            <div className="col-xl-7 col-lg-6 col-md-5 col-12 mapimg">
+            <div className="col-xl-7 col-lg-6 col-md-6 col-12 mapimg">
               <div className="athena text-center">
                 <img src="assets\athena.png" className="img-fluid" />
               </div>

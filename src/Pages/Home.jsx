@@ -11,11 +11,14 @@ import Blogs from '../Components/Blogs'
 import Letstalk from '../Components/Letstalk'
 import Footer from '../Components/Footer'
 import Securebanner from '../Components/Securebanner'
+import { ServiceData } from '../Constants/ServiceData'
 
 function Home() {
 
     const themecode = "#DEFFFB"
     const fontcode = "#000"
+    const iconbgcode  = "#000"
+    const link_name = "/service"
 
 
 
@@ -27,10 +30,6 @@ function Home() {
                 <Banner/>
             </section>
 
-            {/* <section>
-                <Experience/>
-            </section> */}
-
             <section>
                 <Introduction/>
             </section>
@@ -40,12 +39,14 @@ function Home() {
             </section>
 
             <section>
-                <Ourservice theme={themecode} colorcode={fontcode}/>
+                <Ourservice 
+                theme={themecode} 
+                colorcode={fontcode} 
+                servicess={ServiceData.Our_service}
+                iconbg={iconbgcode}
+                linkpage={link_name}
+                />
             </section>
-
-            {/* <section>
-                <Success/>
-            </section> */}
 
             <section>
                 <Security/>

@@ -3,10 +3,14 @@ import Ourservice from "../Components/Ourservice";
 import Securebanner from "../Components/Securebanner";
 import Letstalk from "../Components/Letstalk";
 import { servicepage } from "../Constants/Service.contant.js/Service";
+import { ServiceData } from "../Constants/ServiceData";
+
 
 function Service() {
   const themecode = "#00153C";
   const fontcode = "#ffff";
+   const iconbgcode  = "#25CEBA"
+   const link_name = "/contact"
 
   return (
     <section className="service-page">
@@ -51,7 +55,12 @@ function Service() {
         </div>
       </div>
 
-      <Ourservice theme={themecode} colorcode={fontcode} />
+      <Ourservice 
+      theme={themecode} 
+      colorcode={fontcode} 
+       servicess={ServiceData.Explore_service} 
+       iconbg={iconbgcode}
+       linkpage={link_name}/>
 
      <Securebanner/>
      <Letstalk/>

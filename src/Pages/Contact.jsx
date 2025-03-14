@@ -48,8 +48,8 @@ function Contact() {
           </div>
           <div className="ct-form position-absolute">
             <div className="container">
-              <div className="entry-form">
-              <div className="ct-title text-md-start text-center mb-3">
+              <div className="entry-form" id="letstalk">
+              <div className="ct-title text-md-start text-center mb-5">
                     <h2>Connect with us for Partnerships</h2>
                   </div>
                 <form onSubmit={Formik.handleSubmit}>

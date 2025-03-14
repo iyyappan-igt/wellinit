@@ -134,7 +134,7 @@ function Letstalk() {
                   <textarea
                     class="form-control"
                     placeholder="Message"
-                    rows="9"
+                    rows="7"
                     {...Formik.getFieldProps("message")}
                   ></textarea>
              
