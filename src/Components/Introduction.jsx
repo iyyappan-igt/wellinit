@@ -26,7 +26,8 @@ function Introduction() {
               <h5>{Intro.Title}</h5>
               <h2>{Intro.Subtitle}</h2>
               <p>{Intro.Description}</p>
-              <p>{Intro.Description2}</p>
+              {/* <p>{Intro.Description2}</p> */}
+              <button className="btn">{Intro?.button}</button>
             </div>
            
             </div>

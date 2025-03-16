@@ -20,9 +20,7 @@ function Footer() {
                 <div className="footer-details position-absolute h-100">
                   <h2>{footer?.title}</h2>
                   <p>{footer?.sub_title}</p>
-                  <a href="#letstalk">
-                    <button className="btn">{footer?.button}</button>
-                  </a>
+                 <Link to="/contact"> <button className="btn">{footer?.button}</button></Link>
                 </div>
               </div>
             </div>

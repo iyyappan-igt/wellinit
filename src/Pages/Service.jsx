@@ -4,6 +4,7 @@ import Securebanner from "../Components/Securebanner";
 import Letstalk from "../Components/Letstalk";
 import { servicepage } from "../Constants/Service.contant.js/Service";
 import { ServiceData } from "../Constants/ServiceData";
+import Whychoose from "../Components/Whychoose";
 
 
 function Service() {
@@ -38,13 +39,14 @@ function Service() {
             <div className="row">
               {servicepage.partner[0]?.partner_data?.map((data) => {
                 return (
-                  <div className="col-lg-6  col-md-6 d-flex align-items-center justify-content-center"  >
+                  <div className="col-lg-12 d-flex align-items-center justify-content-center"  >
                     <div className="partner-box d-flex align-items-center justify-content-evenly" data-aos="fade-up"  data-aos-duration="1500">
                       <div className="pb-img">
                         <img src={data?.image} className="img-fluid" />
                       </div>
                       <div className="pb-name">
-                        <h4><span className="bold-name">{data?.srt_name}</span>{data?.name}</h4>
+                        <h3 className="bold-name">{data?.srt_name}</h3>
+                        <h4>{data?.name}</h4>
                       </div>
                     </div>
                   </div>
@@ -54,6 +56,8 @@ function Service() {
           </div>
         </div>
       </div>
+
+      <Whychoose/>
 
       <Ourservice 
       theme={themecode} 

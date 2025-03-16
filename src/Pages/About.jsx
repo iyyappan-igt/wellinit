@@ -10,7 +10,7 @@ function About() {
   return (
 
     <section>
-    <div className="abt-contents">
+    {/* <div className="abt-contents">
       <div className="conatiner-fluid">
         <div className="abt-banner position-relative">
           <div className="abt-frme">
@@ -27,7 +27,7 @@ function About() {
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
 
         <div className="abt-who ">
           <div className="container-fluid p-0 ">
@@ -68,7 +68,6 @@ function About() {
           </div>
         </div>
 
-        <Securebanner/>
 
         <Letstalk/>
 

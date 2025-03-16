@@ -7,6 +7,7 @@ import CommonRoutes from './CommonRoutes'
 import Athenapage from '../Pages/Athenapage'
 import Service from '../Pages/Service'
 import Contact from '../Pages/Contact'
+import Whywellinit from '../Pages/Whywellinit'
 
 export const ScrollTop = ()=>{
     const {pathname} = useLocation()
@@ -27,6 +28,7 @@ function MainRoutes() {
                 <Route path='/athena' element={<Athenapage/>}/>
                 <Route path='/service' element={<Service/>}/>
                 <Route path='/contact' element={<Contact/>}/>
+                <Route path='/compliance' element={<Whywellinit/>}/>
              </Route>
          </Routes>
          </BrowserRouter>

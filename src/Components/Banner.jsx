@@ -11,7 +11,7 @@ function Banner() {
         <div className="row">
           <div className="col-lg-4 col-md-4 col-12 position-relative">
             <div
-              className="banner-content position-absolute w-100"
+              className="banner-content position-absolute"
               data-aos="fade-right"
               data-aos-duration="1500"
             >
@@ -19,29 +19,6 @@ function Banner() {
               <p>{Homebanner.description}</p>
               <a href="#letstalk">
                 <button className="btn">Get Free Consultation</button>
-                {/* <button class="button">
-                  <span>G</span>
-                  <span>e</span>
-                  <span>t</span>
-                  <span className="pp"> </span>
-                  <span>F</span>
-                  <span>r</span>
-                  <span>e</span>
-                  <span>e</span>
-                  <span className="pp"> </span>
-                  <span>C</span>
-                  <span>o</span>
-                  <span>n</span>
-                  <span>s</span>
-                  <span>u</span>
-                  <span>l</span>
-                  <span>t</span>
-                  <span>a</span>
-                  <span>t</span>
-                  <span>i</span>
-                  <span>o</span>
-                  <span>n</span>
-                </button> */}
               </a>
             </div>
           </div>

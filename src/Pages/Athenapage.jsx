@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Athenapage() {
   return (
     <section className="athpage">
-      <div className="athena-frame pt-5">
+      <div className="athena-frame ">
         <div className="container text-center">
           <h4 data-aos="fade-left" data-aos-duration="1500">
             {Athena.banner[0]?.sub_title}
@@ -31,32 +31,28 @@ function Athenapage() {
         </div>
       </div>
 
-      <div className="common-issue">
+
+      <div className="common-issue value-issue">
         <div className="container">
-          <div className="ci-title  text-center">
+          <div className="ci-title  py-3 text-center">
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-              {Athena.common_issues[0]?.title}
+              {Athena.partner[0]?.title}
             </h2>
           </div>
-          <div className="ci-issue">
-            {Athena.common_issues[0]?.points.map((data, i) => {
+          <div className="ci-issuemt-lg-5 mt-4">
+            {Athena.partner[0]?.points.map((data, i) => {
               return (
                 <div
                   className="d-flex justify-content-center"
                   data-aos="fade-up"
                   data-aos-duration="1500"
                 >
-                  <div className="ci-points d-flex align-items-center gap-xl-5 gap-md-4 gap-3  my-md-3 my-2">
-                    <div className="ci-tik">
-                      <div className="d-flex justify-content-center mt-md-3">
-                        <img
-                          src="\assets\white-tick.png"
-                          className="img-fluid "
-                        />
-                      </div>
+                  <div className="ci-point value-point d-flex align-items-center gap-4">
+                    <div className="ci-icon">
+                      <img src={data.icon} className="img-fluid"/>
                     </div>
-                    <div className="ci-name">
-                      <h5 className="m-0">{data.issues}</h5>
+                    <div className="ci-name fff">
+                      <h5 className="m-0">{data.point}</h5>
                     </div>
                   </div>
                 </div>
@@ -164,37 +160,32 @@ function Athenapage() {
         </div>
       </div>
 
-      <div className="common-issue value-issue">
+      <div className="athena-reason bg-light">
         <div className="container">
-          <div className="ci-title  text-center">
-            <h2 data-aos="zoom-in" data-aos-duration="1500">
-              {Athena.partner[0]?.title}
-            </h2>
+          <div className="ar-title text-center">
+            <h2>{Athena.Reasons[0]?.title}</h2>
+            <p>{Athena.Reasons[0]?.sub_title}</p>
           </div>
-          <div className="ci-issuemt-lg-5 mt-4">
-            {Athena.partner[0]?.points.map((data, i) => {
-              return (
-                <div
-                  className="d-flex justify-content-center"
-                  data-aos="fade-up"
-                  data-aos-duration="1500"
-                >
-                  <div className="ci-points value-point d-flex align-items-center gap-lg-5 gap-md-4 gap-3 my-md-3 my-2">
-                    <div className="jjjj">
-                      <div className="d-flex justify-content-center mt-md-3">
-                        <img
-                          src="\assets\white-tick.png"
-                          className="img-fluid "
-                        />
+          <div className="ci-issue my-5">
+            <div className="row">
+              {Athena.Reasons[0]?.reason_points.map((data, i) => {
+                return (
+                  <div className="col-lg-6 ar">
+                     <div className="ci-points d-flex align-items-center  gap-md-4 gap-3 my-md-3 my-2">
+                        <div className="ticklogo">
+                          <img src="assets\reason-tick.png" className="img-fluid"/>
+                        </div>
+                        <div className="ci-name fff">
+                          <h5 className="m-0">{data.points}</h5>
+                        </div>
                       </div>
-                    </div>
-                    <div className="ci-name fff">
-                      <h5 className="m-0">{data.point}</h5>
-                    </div>
                   </div>
-                </div>
-              );
-            })}
+                );
+              })}
+            </div>
+          </div>
+          <div className="start-btn text-center d-flex justify-content-center" >
+            <button className="btn text-light">Start Today</button>
           </div>
         </div>
       </div>

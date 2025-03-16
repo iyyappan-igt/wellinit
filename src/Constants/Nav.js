@@ -18,8 +18,8 @@ export const Nav = {
             link : '/athena'
         },
         {
-            name : 'Why Wellinit',
-            link : '/wellinit'
+            name : 'Compliance',
+            link : '/compliance'
         },
         {
             name : 'Contact Us',
