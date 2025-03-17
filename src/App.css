@@ -474,7 +474,7 @@ a{
   margin-top: 40px;
 }
 .choose-box{
-  padding: 30px 0px;
+  padding: 50px 0px;
 }
 .choose-name h5{
   font-size: 24px;
@@ -690,17 +690,8 @@ height: 500px;
   right: 8%;
   top: 16px;
 }
-
-.ci-tik{
-  width: 55px;
-  height: 55px;
-  background-color: brown;
-  border-radius: 50px;
-}
-.ci-tik img{
-width: 22px;
-height: 22px;
-object-fit: contain;
+.browntick{
+  width: 50px;
 }
 .ci-points {
   background-color: #EEEEEE;
@@ -878,7 +869,7 @@ object-fit: contain;
   padding: 80px 0px;
 }
 .compherensive{
-  padding: 80px 0px;
+  padding-top: 80px;
 }
 .compherensive .row{
    margin: 50px 120px 0px 120px;

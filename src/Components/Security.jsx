@@ -81,10 +81,13 @@ function Security() {
                 </div>
               </div>
             </div>
-            <div className="col-xl-7 col-lg-6 col-md-6 col-12 mapimg">
+            <div className="col-xl-7 col-lg-6 col-md-6 col-12 ">
+              <div className="mapimg">
               <div className="athena text-center">
                 <img src="assets\athena.png" className="img-fluid" />
               </div>
+              </div>
+            
             </div>
           </div>
         </div>

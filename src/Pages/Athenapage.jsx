@@ -20,7 +20,7 @@ function Athenapage() {
       </div>
 
       <div className="athena-main position-relative ">
-        <div className="athena-banner pt-5">
+        <div className="athena-banner pt-xl-5 pt-lg-3">
           <img src={Athena.banner[0]?.image} className="img-fluid" />
         </div>
         <div className="athpic">
@@ -170,8 +170,8 @@ function Athenapage() {
             <div className="row">
               {Athena.Reasons[0]?.reason_points.map((data, i) => {
                 return (
-                  <div className="col-lg-6 ar">
-                     <div className="ci-points d-flex align-items-center  gap-md-4 gap-3 my-md-3 my-2">
+                  <div className="col-lg-6 col-md-6 ar">
+                     <div className="ci-points d-flex align-items-center  gap-md-4 gap-3 my-2">
                         <div className="ticklogo">
                           <img src="assets\reason-tick.png" className="img-fluid"/>
                         </div>

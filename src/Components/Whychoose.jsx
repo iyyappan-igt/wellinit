@@ -10,7 +10,7 @@ function Whychoose() {
         </div>
         <div className="choose-option ">
           <div className="row">
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 d-flex justify-content-center">
             <div className="choose-box d-flex align-items-center justify-content-center gap-4">
                  <div className="choose-img">
                   <img src="\assets\icon1.png" className="img-fluid"/>
@@ -20,7 +20,7 @@ function Whychoose() {
                  </div>
              </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 d-flex justify-content-center">
             <div className="choose-box d-flex align-items-center justify-content-center gap-4">
                  <div className="choose-img">
                   <img src="\assets\icon2.png" className="img-fluid"/>
@@ -30,7 +30,7 @@ function Whychoose() {
                  </div>
              </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 d-flex justify-content-center">
             <div className="choose-box d-flex align-items-center justify-content-center gap-4">
                  <div className="choose-img">
                   <img src="\assets\icon5.png" className="img-fluid"/>
@@ -40,7 +40,7 @@ function Whychoose() {
                  </div>
              </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 d-flex justify-content-center">
             <div className="choose-box d-flex align-items-center justify-content-center gap-4">
                  <div className="choose-img">
                   <img src="\assets\icon3.png" className="img-fluid"/>
@@ -50,7 +50,7 @@ function Whychoose() {
                  </div>
              </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 d-flex justify-content-center">
             <div className="choose-box d-flex align-items-center justify-content-center gap-4">
                  <div className="choose-img">
                   <img src="\assets\icon4.png" className="img-fluid"/>
@@ -60,7 +60,7 @@ function Whychoose() {
                  </div>
              </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 d-flex justify-content-center">
             <div className="choose-box d-flex align-items-center justify-content-center gap-4">
                  <div className="choose-img">
                   <img src="\assets\icon6.png" className="img-fluid"/>

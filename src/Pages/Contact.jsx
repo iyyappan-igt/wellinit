@@ -49,7 +49,7 @@ function Contact() {
           <div className="ct-form position-absolute">
             <div className="container">
               <div className="entry-form" id="letstalk">
-              <div className="ct-title text-md-start text-center mb-5">
+              <div className="ct-title text-md-start text-center mb-md-5 mb-3">
                     <h2>Connect with us for Partnerships</h2>
                   </div>
                 <form onSubmit={Formik.handleSubmit}>

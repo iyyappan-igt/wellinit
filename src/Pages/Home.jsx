@@ -54,14 +54,12 @@ function Home() {
                   data-aos-duration="1500"
                 >
                   <div className="ci-points d-flex align-items-center gap-xl-5 gap-md-4 gap-3  my-md-3 my-2">
-                    <div className="ci-tik">
-                      <div className="d-flex justify-content-center mt-md-3">
+                  <div className="browntick">
                         <img
-                          src="\assets\white-tick.png"
+                          src="\assets\brown-tick.png"
                           className="img-fluid "
                         />
                       </div>
-                    </div>
                     <div className="ci-name">
                       <h5 className="m-0">{data.issues}</h5>
                     </div>

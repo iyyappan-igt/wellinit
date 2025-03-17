@@ -71,7 +71,7 @@ function Footer() {
                 <div className="sp-title text-md-start text-center">
                   <h3>Sign Up to Our Newsletter</h3>
                 </div>
-                <div className="sp-input d-flex align-items-center py-4">
+                <div className="sp-input d-flex align-items-center justify-content-center justify-content-md-start py-4">
                   <input
                     type="text"
                     className="form-control"

@@ -39,8 +39,8 @@ function Service() {
             <div className="row">
               {servicepage.partner[0]?.partner_data?.map((data) => {
                 return (
-                  <div className="col-lg-12 d-flex align-items-center justify-content-center"  >
-                    <div className="partner-box d-flex align-items-center justify-content-evenly" data-aos="fade-up"  data-aos-duration="1500">
+                  <div className="col-lg-12 d-block d-md-flex align-items-center justify-content-center"  >
+                    <div className="partner-box d-flex align-items-center justify-content-evenly gap-sm-3 gap-md-0" data-aos="fade-up"  data-aos-duration="1500">
                       <div className="pb-img">
                         <img src={data?.image} className="img-fluid" />
                       </div>

@@ -11,15 +11,15 @@ function Whywellinit() {
             <div className="protect-well">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6">
-                            <div className="protect">
+                        <div className="col-lg-6 col-md-12">
+                            <div className="protect text-lg-start text-center">
                                 <h2>{wellinitData.protect.title}</h2>
                                 <p>{wellinitData.protect.description}</p>
                                 <button className='btn'>{wellinitData.protect.button}</button>
 
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 col-md-12">
                             <div className="protect-img text-center">
                                 <img src={wellinitData.protect.image} className='img-fluid'/>
                             </div>
@@ -37,7 +37,7 @@ function Whywellinit() {
                            {
                             wellinitData.compherensive.points?.map((data)=>{
                                 return(
-                                    <div className="col-lg-6 d-flex justify-content-center">
+                                    <div className="col-lg-6  col-md-6 col-12 d-flex justify-content-center">
                                         <div className="camp-box">
                                             <div className="camp-icon">
                                                 <img src={data?.icon} className='img-fluid'/>

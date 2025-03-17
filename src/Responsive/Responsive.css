@@ -35,6 +35,15 @@
         margin: 40px 170px;
 
     }
+    .compherensive .row {
+        margin: 50px;
+    }
+ .protect h2{
+    width: 100%;
+ }
+ .protect-img img{
+    width: 500px;
+ }
     .intro-content h2{
         width: 100%;
     }
@@ -66,10 +75,34 @@
 
 @media (width < 1200px ) {
 
+
+    .protect h2 {
+        font-size: 48px;
+    }
+    .protect-img img {
+        width: 100%;
+        height: 350px;
+        object-fit: fill;
+    }
+    .protect p {
+        font-size: 17px;
+        margin: 30px 0px;
+        line-height: 22px;
+    }
     .brand-logo img {
         /* height: 82px; */
         object-fit: contain;
         width: 150px;
+    }
+    .blog-box{
+        width: 400px;
+    }
+
+    .protect button, .protect button:hover {
+        background-color: #25CEBA;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 9px 40px;
     }
     .nav-links {
         gap: 40px;
@@ -84,7 +117,7 @@
         width: 390px;
     }
     .banner-place1 {
-        width: 73%;
+        width: 79%;
         height: 500px;
     }
     .abt-frme img{
@@ -93,25 +126,42 @@
     .banner-place2{
         height: 500px;
     }
-    .banner-content h3 , .intro-content h2{
-        font-size: 40px;
-    }
+
     .banner-content p {
         font-size: 20px;
         margin: 20px 0px;
         width: 100%;
     }
-    .secure-div , .common-issue , .blog-sec , .choose-sec , .service-sec , .lets-sec{
+    .secure-div , .common-issue , .service-sec , .lets-sec , .abt-billing 
+    , .service-intro , .service-partner , .athena-frame , .modular-service , .report-service , .protect-well {
         padding: 60px 0px;
     }
+    .blog-sec ,  .choose-sec  {
+        padding-top: 0px !important;
+    }
+    .compherensive{
+        padding-top: 60px;
+    }
     .into-img{
-        height: 100%;
+    height: 100%;
+    }
+    .camp-box{
+        margin: 10px 0px;
+        width: 400px;
+        height: 350px;
+    }
+    .compherensive .row{
+        margin: 30px 0px; 
     }
     .intro-content{
-        padding: 20px;
+        padding: 40px 20px;
     }
-
-
+    .athena-modular h2, .report-content h2{
+        font-size: 45px;
+    }
+    .mo-img img , .report-img img{
+        width: 400px;
+    }
     .sub-img {
         top: 60px;
         width: 185px;
@@ -126,10 +176,13 @@
     .intro-content h2{
         margin: 25px 0px;
     }
-    .choose-title h2, .service-title h2, .customer-say h2, .blog-title h2, .talk-title h2 , .ct-title h2 {
+    .choose-title h2, .service-title h2, .customer-say h2, .blog-title h2,
+     .talk-title h2 , .ct-title h2 ,  .banner-content h3 , .intro-content h2 ,  .sc-title h5 , .abtbanner-content h2 
+     , .abtwho-cnt h2 , .service-name h2 ,.ar-title h2 , .comp-title h2{
         font-family: 'Font-Bold', sans-serif;
-        font-size: 40px;
+        font-size: 38px;
     }
+
     .choose-name h5 {
         font-size: 20px;
         font-weight: 600;
@@ -138,7 +191,9 @@
         width: 70px;
         height: auto;
     }
-
+.ar .fff{
+    width: 360px;
+}
     .choose-option{
         margin-top: 30px;
     }
@@ -166,10 +221,7 @@
 .secure-content{
     margin-left: 40px;
 }
-    .sc-title h5 {
-        font-size: 40px;
-        line-height: 48px;
-    }
+
 
     .sc-details button, .sc-details button:hover {
         padding: 10px 48px;
@@ -206,7 +258,7 @@
         padding: 10px;
     }
     .blog-pic {
-        margin: 45px 0px;
+        margin: 60px 0px;
     }
 
     .entry-form{
@@ -216,15 +268,12 @@
         height: 450px
     }
 .footer-details{
-    padding: 37px 49px;
+    padding: 60px 50px;
 }
 .footer-bottom{
-    padding: 50px 35px
+    padding: 60px 30px
 }
 
-    .footer-details h2{
-        font-size: 35px;
-    }
     .footer-details p{
         font-size: 22px;
     }
@@ -245,17 +294,15 @@
         font-size: 25px;
         margin: 20px 0px;
     }
-    .abtbanner-content h2 {
-        font-size: 40px;
-    }
+
     .abtbanner-content button, .abtbanner-content button:hover {
         font-size: 16px;
     }
     .abtwho-pic img{
         height: 450px;
     }
-    .abtwho-cnt{
-        padding: 50px;
+    .abtwho-cnt {
+        padding: 60px 0px 60px 60px;
     }
     .abtwho-cnt p {
         font-size: 18px;
@@ -265,9 +312,8 @@
         font-size: 20px;
         margin-top: 30px;
     }
-    .abt-billing{
-        padding: 50px 30px;
-    }
+
+
     .abt-mission h5{
         font-size: 20px;
     }
@@ -277,21 +323,26 @@
     .mission-img img {
         width: 650px;
     }
-    .athena-frame .container h4  , .ci-title h2{
-        font-size: 40px;
+    .athena-frame .container h4  , .ci-title h2 ,.abt-mission h2 ,  .footer-details h2 , .sp-title h2{
+        font-size: 35px;
     }
     .athena-frame .container h2 {
-        font-size: 110px;
+        font-size: 100px;
+        margin: 20px 0px;
     }
     .athpic img, .wellpic img {
         width: 140px;
     }
+    .ci-title h2{
+        padding-bottom: 0px;
+    }
+
 
     .ci-points{
-        width: 580px;
+        width: 480px;
     }
     .ci-name h5 {
-        font-size: 23px;
+        font-size: 22px;
     }
     .athena-modular p, .report-content p {
         padding-top: 20px;
@@ -314,14 +365,8 @@
       .service-intro {
         margin: 0px 100px;
     }
-    .service-name h2{
-        font-size: 52px;
-    }
-    .sp-title h2{
-        font-size: 40px;
-    }
     .service-img img {
-        width: 480px;
+        width: 420px;
     }
     .pb-name h4 {
         font-size: 20px;
@@ -342,6 +387,8 @@
     .partner-box {
         padding: 30px 0px;
         margin: 20px 0px;
+        width: 850px;
+        height: 270px;
     }
     .fb-overlay{
         left: -36px;
@@ -349,8 +396,6 @@
     .lk-overlay{
         left: -155px;
     }
-
-    
 
 }
 
@@ -367,33 +412,54 @@
         font-size: 18px;
         margin: 20px 0px;
     }
-    .forms{
-        padding: 15px;
-    }
 
     .banner-place1 {
-        width: 78%;
-        height: 450px;
+        width: 85%;
+        height: 390px;
     }
     .banner-content {
         padding: 0px;
         left: 40px;
-        top: 98px;
+        top: 60px;
         width: 370px !important;
     }
     .banner-place2 {
-        height: 450px;
+        height: 390px;
     }
     .banner-content h3, .intro-content h2 , .choose-title h2, .service-title h2, .customer-say h2,
-     .blog-title h2, .talk-title h2 , .sc-title h5  , .footer-details h2 , .abtbanner-content h2 , .abtwho-cnt h2 , .ct-title h2{
-        font-size: 30px;
+     .blog-title h2, .talk-title h2 , .sc-title h5  , .footer-details h2 , .abtbanner-content h2 , .abtwho-cnt h2 , .ct-title h2 ,
+     .abt-mission h2 ,.comp-title h2{
+        font-size: 32px;
     }
     .into-img img , .main-intro {
         object-fit: cover;
         height: 450px;
         width: 100%;
     }
-    
+    .camp-des p {
+        font-size: 18px;
+    }
+    .camp-box {
+        margin: 10px 0px;
+        width: 100%;
+        height: 350px;
+    }
+
+    .camp-name h4 {
+        font-size: 25px;
+        margin: 25px 0px;
+    }
+    .bold-name {
+        font-size: 22px;
+    }
+
+ 
+    .abtwho-cnt{
+        padding: 40px;
+    }
+    .abt-mission{
+        padding: 0px 30px;
+    }   
     .blog-info h6 {
         font-size: 15px;
     }
@@ -403,8 +469,11 @@
     }
     .intro-content{
         position: absolute;
-        padding: 30px 50px;
+        padding: 40px;
         z-index: 1;
+    }
+    .sc-title h5{
+        line-height: 40px;
     }
     .ic-overlay2{
         background:url('/public/assets/intro-bg\(2\).png');
@@ -445,6 +514,10 @@
     .mapimg {
         height: 400px !important;
         margin: 0px;
+        background-size: cover;
+    }
+    .willenet .nav-items{
+        margin: 10px 0px;
     }
     .athena img {
         width: 300px;
@@ -479,7 +552,7 @@
         padding: 0px;
     }
     .entry-form {
-        margin: 0px 50px;
+        margin: 30px 0px;
     }
 
     .footer-details {
@@ -510,22 +583,21 @@
     .abtbanner-content P{
         font-size: 20px;
     }
-    .athena-frame .container h4, .ci-title h2 {
-        font-size: 35px;
-    }
+
+
     .athena-frame .container h2 {
-        font-size: 80px;
+        font-size: 70px;
     }
     .athena-frame .container p {
         font-size: 18px;
     }
     .wellpic {
-        right: 5%;
-        top: 2%;
+        right: 8%;
+        top: -9%;
     }
     .athpic {
-        top: 10%;
-        left: 7%;
+        top: 2%;
+        left: 4%;
     }
     .ci-issue {
         margin: 35px 0px;
@@ -540,25 +612,37 @@
         width: 100%;
     }
     .athena-modular h2, .report-content h2 {
-        font-size: 45px;
+        font-size: 40px;
+    }
+    .ar-title{
+        margin: 0px 20px;
+    }
+    .ar .fff{
+        width: 100%;
+    }
+    .ar:nth-child(7) .ci-points {
+        width: 360px;
     }
 
     .mo-point h5 {
         font-size: 17px;
         margin: 15px 0px;
     }
-    .fff {
-        width: 550px;
+   .value-point .fff{
+        width: 100%;
     }
-    .ci-tik , .jjjj{
-        width: 50px;
-        height: 50px;
-    }
-    .value-point{
-        width: 100% !important;
-    }
+ 
+.protect-img img{
+    width: 500px;
+    height: 100%;
+    margin-top: 50px ;
+}
     .ci-name h5 {
-        font-size: 21px;
+        font-size: 18px;
+    }
+
+    .protect h2{
+        font-size: 38px;
     }
     .report-img img , .mo-img img{
         margin-top: 50px;
@@ -571,9 +655,7 @@
     .common-issue , .modular-service , .report-service {
         padding: 60px 0px;
     }
-    .service-intro{
-        margin: 0px 50px;
-    }
+
     .service-img img {
         width: 400px;
     }
@@ -584,16 +666,22 @@
         font-size: 45px;
     }
     .service-partner, .service-intro {
-        padding: 50px 0px;
+        padding: 50px 30px;
+    }
+    .service-intro{
+        margin: 0px;
     }
     .pb-img {
-        width: 65px;
+        width: 75px;
     }
     .pb-name h4 {
-        font-size: 19px;
+        font-size: 17px;
     }
     .pb-name{
-        width: 230px;
+        width: 500px;
+    }
+    .choose-box{
+        padding: 30px 0px;
     }
     .partner-box{
         width: 100%;
@@ -609,12 +697,13 @@
         left: -221px;
     }
 
+    .forms{
+        padding: 10px;
+    }
 
 }
 
 @media (width < 768px) {
-
-
 
     .banner-content {
         padding: 0px;
@@ -653,31 +742,18 @@
     .athena-frame .container h4, .ci-title h2 {
         font-size: 24px;
     }
-    .forms{
-        padding: 10px 0px;
-    }
+
     .athena-frame .container h2 {
         font-size: 60px;
     }
-    .athena-frame .container p {
+    .athena-frame .container p , .protect p{
         font-size: 16px;
     }
     .ci-points {
         width: 100%;
     }
-    .ct-title h2{
+    .ct-title h2 , .ar-title h2 , .protect h2 , .comp-title h2 {
         font-size: 30px;
-    }
-    .ci-tik {
-        width: 45px;
-        height: 45px;
-    }
-    .ci-tik img , .jjjj img{
-        margin-top: 10px;
-    }
-    .jjjj {
-        width: 47px;
-        height: 40px;
     }
     
     .ci-name h5 {
@@ -695,6 +771,11 @@
     .fff {
         width: 100%;
     }
+    .partner-box{
+        width: 100%;
+        height: 220px;
+        padding: 10px 0px;
+    }
     .service-img img {
         width: 350px;
     }
@@ -705,9 +786,18 @@
         font-size: 30px;
         margin-bottom: 30px;
     }
-    .partner-box {
-        width: 400px;
-    }
+ .pb-name{
+    width: 350px;
+ }
+ .pb-name h4{
+    font-size: 15px;
+ }
+ .bold-name , .ar-title p{
+    font-size: 18px;
+ }
+ .sp-name h5 {
+    font-size: 17px;
+}
     .ct-form .entry-form{
         width: 100%;
     }
@@ -744,7 +834,36 @@
         height: 485px !important;
         left: 0px;
         }
+        .value-point{
+            width: 100% !important;
+            height: 100px;
+        }
+        .ci-icon{
+            width: 60px;
+        }
+        .report-img img, .mo-img img {
+            width: 350px;
+        }
 
+        .ar .ci-points{
+            height: auto;
+        }
+
+        .ar:nth-child(7) .ci-points , .comp-title {
+            width : 100%;
+        }
+    
+       .start-btn button {
+        padding: 6px 0px;
+        font-size: 16px;
+       }
+       .protect button{
+        font-size: 16px;
+        padding: 6px 35px;
+       }
+       .protect-img img{
+        width: 400px;
+       }
 }
 
 @media (width < 576px) {
@@ -782,7 +901,7 @@
     .banner-content {
         padding: 0px 50px;
         left: 0px;
-        top: 40px;
+        top: 25px;
         text-align: center;
         width: 100% !important;
     }
@@ -798,15 +917,16 @@
     .navsec{
         padding: 0px;
     }
-    .banner-content h3{
-        font-size: 30px;
-    }
+
     .banner-content p{
         font-size: 16px;
     }
-    .banner-content button, .banner-content button:hover {
+    .banner-content button, .banner-content button:hover , .intro-content button , .intro-content button:hover {
         padding: 9px 72px;
         width: 100%;
+    }
+    .browntick{
+        width: 30px;
     }
     .ex-name h6 {
         font-size: 12px;
@@ -832,14 +952,16 @@
         padding: 30px;
     }
     .intro-content , .success-sec , .choose-sec ,  .service-sec , .blog-sec , .footer-details , .lets-sec , .lock-vontent {
-        padding: 50px  30px;
+        padding: 40px  20px;
     }
     .intro-content h5{
         font-size: 16px;
     }
-    .intro-content h2{
+    .intro-content h2 , .footer-details h2 ,  .banner-content h3 , .abtbanner-content h2 ,  .ct-title h2 , .ar-title h2 , .protect h2 , .comp-title h2 {
         font-size: 24px;
     }
+
+    
     .intro-content p{
         font-size: 14px;
         margin: 20px 0px;
@@ -873,7 +995,7 @@
         padding: 25px;
     }
     .choose-img img {
-        width: 72px;
+        width: 60px;
         height: 100%;
     }
     .choose-name h5 {
@@ -899,9 +1021,6 @@
     .choose-button button{
         width: 100%;
     }
-    /* .serv-name h5 {
-        font-size: 16px;
-    } */
 
     .explore-btn button, .explore-btn button:hover {
         margin-top: 20px;
@@ -1015,10 +1134,7 @@
       .footer-details{
         text-align: center;
       }
-      .footer-details h2 {
-        font-size: 30px;
-        line-height: 29px;
-    }
+
     .footer-details p {
         font-size: 18px;
         font-weight: 400;
@@ -1027,7 +1143,7 @@
     }
     .footer-details button {
         background-color: #25CEBA;
-        padding: 7px 20px;
+        padding: 6px 20px;
         width: 100%;
         font-size: 16px;
     }
@@ -1042,7 +1158,6 @@
     padding: 30px 0px;
    }
    .sp-title h3 {
-    font-family: 'Font-Bold', sans-serif;
     font-size: 20px;
     text-align: center;
 }
@@ -1111,9 +1226,7 @@
     top: 5%;
     padding: 0px 150px;
 }
-.abtbanner-content h2{
-    font-size: 30px;
-  }
+
   .abt-frme img{
     height: 516px;
     object-fit: cover;
@@ -1150,7 +1263,7 @@
 .abtwho-pic img{
     height: 450px;
 }
-.abt-billing{
+.abt-billing {
     padding: 50px 30px;
 }
 .abt-mission h4{
@@ -1172,25 +1285,15 @@
 .athpic img, .wellpic img {
     width: 100px;
 }
-.ci-tik img  , .jjjj img{
-    width: 12px;
-    object-fit: contain;
-}
-.ci-tik {
-    width: 24px;
-    height: 24px;
-}
-.jjjj {
-    width: 28px;
-    height: 24px;
-}
-.ci-points {
-    padding: 10px 20px;
+.athena-frame{
+    padding-bottom: 0px;
 }
 
-.ci-tik img  , .jjjj img {
-    margin-top: 0px;
+.ci-points {
+    padding: 10px;
 }
+
+
 .ci-name h5  {
     font-size: 14px;
 }
@@ -1205,28 +1308,30 @@
     font-size: 14px;
     margin: 12px 0px;
 }
-.point-btn button, .point-btn button:hover, .report-content button, .report-content button:hover {
+.point-btn button, .point-btn button:hover, .report-content button, .report-content button:hover  , .start-btn button
+, .protect button{
     font-size: 16px;
     width: 100%;
 }
 .report-img img, .mo-img img {
     width: 300px;
 }
-.service-partner, .service-intro {
-    padding: 40px 30px;
+.service-partner, .service-intro , .compherensive{
+    padding: 40px 0px;
     margin: 0px;
 }
-.service-intro h2{
-    font-size: 30px;
+.protect-img img{
+    width: 320px;
 }
-.service-intro p{
+
+.service-intro p , .ar-title p{
     font-size: 16px;
 }
 .service-img img {
     width: 300px;
     margin-top: 30px;
 }
-.sp-title h2 {
+.sp-title h2 , .service-intro h2{
     font-size: 24px;
     margin-bottom: 30px;
 }
@@ -1237,10 +1342,13 @@
     width: 50px;
 }
 .pb-name h4{
-    font-size: 16px;
+    font-size: 12px;
+}
+.bold-namew{
+    font-size: 15px;
 }
 .pb-name{
-    width: 190px;
+    width: 300px;
 }
 .text-danger{
     font-size: 13px;
@@ -1250,20 +1358,20 @@
     rotate: 15deg;
     margin: 15px 0px
 }
-.athena-banner{
+.athena-banner , .athena-reason{
     padding: 40px 0px;
 }
 .athpic {
-    top: 2%;
-    left: 15%;
+    top: 4%;
+    left: 20%;
 }
 .wellpic {
-    right: 8%;
-    top: 22%;
+    right: 14%;
+    top: 17%;
 }
 
 .ct-img img {
-    height: 750px;
+    height: 670px;
     width: 100%;
     object-fit: cover;
 }
@@ -1285,6 +1393,19 @@
 }
 .input-grp input, .select-grp select, .text-grp textarea, .input-grp input:focus, .select-grp select:focus-visible{
     margin-bottom: 0px;
+}
+.camp-box {
+    margin: 10px 0px;
+    width: 100%;
+    height: 280px;
+}
+.camp-name h4 {
+    font-size: 23px;
+    margin: 20px 0px;
+}
+.camp-des p {
+    font-size: 14px;
+    line-height: 18px;
 }
 }
 
