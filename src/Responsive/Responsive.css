@@ -136,9 +136,7 @@
     , .service-intro , .service-partner , .athena-frame , .modular-service , .report-service , .protect-well {
         padding: 60px 0px;
     }
-    .blog-sec ,  .choose-sec  {
-        padding-top: 0px !important;
-    }
+
     .compherensive{
         padding-top: 60px;
     }
@@ -960,7 +958,6 @@
     .intro-content h2 , .footer-details h2 ,  .banner-content h3 , .abtbanner-content h2 ,  .ct-title h2 , .ar-title h2 , .protect h2 , .comp-title h2 {
         font-size: 24px;
     }
-
     
     .intro-content p{
         font-size: 14px;
@@ -1025,6 +1022,7 @@
     .explore-btn button, .explore-btn button:hover {
         margin-top: 20px;
         width: 100%;
+        font-size: 16px;
     }
     .success-box{
         width: 100%;
@@ -1040,13 +1038,10 @@
     .customer-say {
         margin: 40px 0px;
     }
-    .cst-desc p {
+    .cst-desc p  , .cst-city p{
         font-size: 13px;
     }
-    .cst-city p {
-        font-size: 13px;
 
-    }
     .cst-name h5 {
         font-size: 16px;
 
@@ -1148,7 +1143,6 @@
         font-size: 16px;
     }
     .blog-load p {
-        font-family: "Truculenta", sans-serif !important;
         font-size: 12px;
         width: 53px;
         margin: 0px;
@@ -1319,6 +1313,9 @@
 .service-partner, .service-intro , .compherensive{
     padding: 40px 0px;
     margin: 0px;
+}
+.service-partner , .compherensive{
+    padding-bottom: 0px;
 }
 .protect-img img{
     width: 320px;
