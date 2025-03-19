@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Securebanner() {
   return (
@@ -23,7 +24,7 @@ function Securebanner() {
                   management
                 </p>
                 <div className="sc-details">
-                  <button className="btn">Know More</button>
+                  <Link to="/compliance"><button className="btn">Know More</button></Link>
                 </div>
               </div>
             </div>

@@ -1,10 +1,11 @@
 export const Athena  = {
     banner : [
         {
-            title : "With AthenaOne",
-            sub_title : "Wellinit & Athenaone a Powerful partnership!",
-            description : "Wellinit delivers specialized RCM solutions for AthenaOne providers across the USA. Our team of athenaone specialists has immersive experience working with athenahealth clinicals, collector, communicator for more than 100+ athenahealth clients. Our experts can leverage athenahealth superior technology such as Claim cycle, Rule engine, Denial workflows, Case management & Reporting functions to achieve desired results.",
-            image : "assets/athena-banner.png",
+            // title : "With AthenaOne",
+           title: "Wellinit & Athenaone a Powerful partnership!",
+            description : "Wellinit delivers specialized RCM solutions for AthenaOne providers across the USA. Our team of athenaone specialists has immersive experience working with athenahealth clinicals, collector, communicator for more than 100+ athenahealth clients.",
+            description_2 : "Our experts can leverage athenahealth superior technology such as Claim cycle, Rule engine, Denial workflows, Case management & Reporting functions to achieve desired results.",
+            image : "assets/athena-banner2.png",
             ath_img : "assets/athena-img.png",
             well_img : "assets/wellinit-img.png"
         }
@@ -53,7 +54,8 @@ export const Athena  = {
     modular : [
         {
             title : 'AthenaOne Modular service',
-            description : 'We understand that every practice is unique. Our customized solutions are specifically tailored to meet your practice’s distinct needs. With a single point of contact, our centralized service collaborates directly with your team to customize workflows and address specific issues. Our collective approach to issue tracking ensures efficient resolutions, while our weekly KPI reviews offer clear insights to monitor progress and performance.',
+            description : 'Our AthenaOne team leverages athenaClinicals, athenaCollector, and athenaCommunicator to optimize workflows, enhance key performance indicators and ensure seamless internal operations for your practice. Our collective approach to issue tracking ensures efficient resolutions, while our weekly KPI reviews offer clear insights to monitor progress and performance.',
+            description_2 : ' We offer AthenaOne expert staffing support for the following services with flexible engagement starting from just 2 hours per week, delivering up to 40% cost savings compared to the U.S. healthcare billing specialist market.',
             points : [
                 {
                     id : 1,
@@ -62,37 +64,32 @@ export const Athena  = {
                 },
                 {
                     id : 2,
-                    point : 'Authorization & referrals'
+                    point : 'Missings Slips entry on TAT'
 
                 },
                 {
                     id : 3,
-                    point : 'Frontend & Backend Coding'
+                    point : 'Rapid Hold buckets clearing'
 
                 },
                 {
                     id : 4,
-                    point : 'Missing Slips / Charge entry'
+                    point : 'Authorization & referrals'
 
                 },
                 {
                     id : 5,
-                    point : 'Hold buckets management'
+                    point : 'Patient queries & receivables management'
 
                 },
                 {
                     id : 6,
-                    point : 'Patient receivables management'
+                    point : 'Credit balances , Unpostables & Zeropay'
 
                 },
                 {
                     id : 7,
-                    point : ' Credit balances , Unpostables & Zeropay'
-
-                },
-                {
-                    id : 8,
-                    point :  'Report analytics'
+                    point :  'Report analytics & Stratergies'
 
                 }
             ],

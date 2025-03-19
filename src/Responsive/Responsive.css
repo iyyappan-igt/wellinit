@@ -71,10 +71,25 @@
     .abtwho-cnt {
         padding: 80px 50px;
     }
+    .mapimg {
+        width: 700px;
+        right: 0px;
+        top: 18%;
+    }
+    .athena img{
+        width: 400px;
+    }
+    .athena-frame2
+    {
+        margin: 0px 100px;
+    }
 }
 
 @media (width < 1200px ) {
-
+    .athena-frame2
+    {
+        margin: 0px 65px;
+    }
 
     .protect h2 {
         font-size: 48px;
@@ -133,10 +148,16 @@
         width: 100%;
     }
     .secure-div , .common-issue , .service-sec , .lets-sec , .abt-billing 
-    , .service-intro , .service-partner , .athena-frame , .modular-service , .report-service , .protect-well {
+    , .service-intro , .service-partner, .modular-service , .report-service , .protect-well {
         padding: 60px 0px;
     }
 
+    .athena-frame{
+        padding-top: 60px;
+    }
+.athena-banner img{
+    width: 600px;
+}
     .compherensive{
         padding-top: 60px;
     }
@@ -176,9 +197,13 @@
     }
     .choose-title h2, .service-title h2, .customer-say h2, .blog-title h2,
      .talk-title h2 , .ct-title h2 ,  .banner-content h3 , .intro-content h2 ,  .sc-title h5 , .abtbanner-content h2 
-     , .abtwho-cnt h2 , .service-name h2 ,.ar-title h2 , .comp-title h2{
+     , .abtwho-cnt h2 , .service-name h2 ,.ar-title h2 , .comp-title h2
+     {
         font-family: 'Font-Bold', sans-serif;
-        font-size: 38px;
+          font-size: 38px;
+    }
+    .athena-frame .container h4  , .ci-title h2 ,.abt-mission h2 ,  .footer-details h2 , .sp-title h2{
+        font-size: 35px;
     }
 
     .choose-name h5 {
@@ -233,7 +258,12 @@
     }
     .mapimg{
         height: 100%;
-        margin: 60px 0px;
+        width: 560px;
+        top: 14%;
+    }
+    .sc-title h5 {
+        width: 437px;
+        line-height: 50px;
     }
     .athena img{
         width: 350px;
@@ -321,16 +351,14 @@
     .mission-img img {
         width: 650px;
     }
-    .athena-frame .container h4  , .ci-title h2 ,.abt-mission h2 ,  .footer-details h2 , .sp-title h2{
-        font-size: 35px;
-    }
+
     .athena-frame .container h2 {
-        font-size: 100px;
+        font-size: 70px;
         margin: 20px 0px;
     }
-    .athpic img, .wellpic img {
+    /* .athpic img, .wellpic img {
         width: 140px;
-    }
+    } */
     .ci-title h2{
         padding-bottom: 0px;
     }
@@ -340,7 +368,7 @@
         width: 480px;
     }
     .ci-name h5 {
-        font-size: 22px;
+        font-size: 20px;
     }
     .athena-modular p, .report-content p {
         padding-top: 20px;
@@ -391,13 +419,24 @@
     .fb-overlay{
         left: -36px;
     }
-    .lk-overlay{
-        left: -155px;
+    .lk-overlay {
+        left: -98%;
+    }
+    .sc-data p {
+        font-size: 17px;
     }
 
 }
 
 @media (width <  992px) {
+
+    .sc-data p {
+        font-size: 16px;
+    }
+    .athena-frame2
+    {
+        margin: 0px;
+    }
 
     .abt-frme img {
         height: 700px;
@@ -405,6 +444,7 @@
     .mission-img img {
         width: 500px;
     }
+
 
     .banner-content p {
         font-size: 18px;
@@ -449,7 +489,9 @@
     }
     .bold-name {
         font-size: 22px;
+        width: 100%;
     }
+    
 
  
     .abtwho-cnt{
@@ -458,7 +500,7 @@
     .abt-mission{
         padding: 0px 30px;
     }   
-    .blog-info h6 {
+    .blog-info h6 , .last-point p {
         font-size: 15px;
     }
     .sub-img img{
@@ -472,6 +514,7 @@
     }
     .sc-title h5{
         line-height: 40px;
+        width: 100%;
     }
     .ic-overlay2{
         background:url('/public/assets/intro-bg\(2\).png');
@@ -510,21 +553,18 @@
         margin-top: 30px;
     }
     .mapimg {
-        height: 400px !important;
+        /* height: 400px !important; */
         margin: 0px;
         background-size: cover;
+        width: 409px;
+        top: -8%;
     }
     .willenet .nav-items{
         margin: 10px 0px;
     }
     .athena img {
-        width: 300px;
-        margin-top: 50px;
-    }
-
-    .mainscc{
-        display: flex;
-        justify-content: center;
+        width: 280px;
+        margin: 60px 70px
     }
     .scgap{
         margin: 20px 0px;
@@ -581,31 +621,34 @@
     .abtbanner-content P{
         font-size: 20px;
     }
+    .athena-banner img {
+        width: 500px;
+    }
 
 
     .athena-frame .container h2 {
-        font-size: 70px;
+        font-size: 55px;
     }
     .athena-frame .container p {
         font-size: 18px;
     }
-    .wellpic {
+    /* .wellpic {
         right: 8%;
         top: -9%;
     }
     .athpic {
         top: 2%;
         left: 4%;
-    }
+    } */
     .ci-issue {
         margin: 35px 0px;
     }
     .ct-img img {
         height: 928px;
     }
-    .athpic img, .wellpic img {
+    /* .athpic img, .wellpic img {
         width: 120px;
-    }
+    } */
     .athena-modular {
         width: 100%;
     }
@@ -698,11 +741,23 @@
     .forms{
         padding: 10px;
     }
+    .start-btn button, .start-btn button:hover {
+        width: 170px;
+        font-size: 18px;
+    }
+    .ar .ci-points{
+        height: auto;
+    }
 
 }
 
 @media (width < 768px) {
 
+    .mainscc{
+        display: flex;
+        justify-content: center;
+    }
+  
     .banner-content {
         padding: 0px;
         left: 22px;
@@ -726,11 +781,11 @@
     .banner-content h3, .intro-content h2, .choose-title h2, .service-title h2, .customer-say h2, .blog-title h2, .talk-title h2, .sc-title h5, .footer-details h2, .abtbanner-content h2, .abtwho-cnt h2, .ct-title h2 {
         font-size: 32px;
     }
-
+/* 
     .athpic img, .wellpic img {
         width: 100px;
         padding: 20px;
-    }
+    } */
     .sign-up , .footer-bottom .brand-logo , .information{
         padding : 30px
       }
@@ -843,13 +898,10 @@
             width: 350px;
         }
 
-        .ar .ci-points{
-            height: auto;
-        }
-
         .ar:nth-child(7) .ci-points , .comp-title {
             width : 100%;
         }
+   
     
        .start-btn button {
         padding: 6px 0px;
@@ -886,7 +938,18 @@
     .abt-mission{
         padding: 0px;
     }
+    
 
+    .abtwho-cnt , .abt-billing {
+        padding: 50px 30px
+    }
+
+    .ticklogo img , .browntick img{
+        width: 25px;
+    }
+    .common-issue, .modular-service, .report-service {
+        padding: 50px 0px;
+    }
     .sub-img img {
         width: 94px !important;
         height: 47px !important;
@@ -899,7 +962,7 @@
     .banner-content {
         padding: 0px 50px;
         left: 0px;
-        top: 25px;
+        top: 50px;
         text-align: center;
         width: 100% !important;
     }
@@ -951,6 +1014,7 @@
     }
     .intro-content , .success-sec , .choose-sec ,  .service-sec , .blog-sec , .footer-details , .lets-sec , .lock-vontent {
         padding: 40px  20px;
+        width: 100%;
     }
     .intro-content h5{
         font-size: 16px;
@@ -958,6 +1022,7 @@
     .intro-content h2 , .footer-details h2 ,  .banner-content h3 , .abtbanner-content h2 ,  .ct-title h2 , .ar-title h2 , .protect h2 , .comp-title h2 {
         font-size: 24px;
     }
+  
     
     .intro-content p{
         font-size: 14px;
@@ -1115,12 +1180,12 @@
     }
     .input-grp input , .select-grp select , .text-grp textarea , .input-grp input:focus , .select-grp select:focus-visible{
        width: 100%;
-       padding: 14px 30px;
-       font-size: 12px;
+       padding: 15px 30px;
+       font-size: 15px;
        border-radius: 28px;
       }
       .input-grp input::placeholder , .select-grp select , .text-grp textarea::placeholder{
-        font-size: 12px;
+        font-size: 15px;
       }
       .entry-form .input-grp , .entry-form .select-grp , .entry-form .text-grp{
         display: flex;
@@ -1189,7 +1254,10 @@
 }
 .secure-content{
     margin: 0px;
-    padding: 0px 30px;
+    padding: 0px;
+}
+.sc-data p {
+    font-size: 14px;
 }
 .sc-details button{
     width: 100%;
@@ -1241,9 +1309,7 @@
 .abtbanner-content p{
     margin: 20px 0px;
 }
-.abtwho-cnt {
-    padding: 50px 30px
-}
+
 .abtwho-cnt h2 {
     font-size: 24px;
 }
@@ -1257,9 +1323,7 @@
 .abtwho-pic img{
     height: 450px;
 }
-.abt-billing {
-    padding: 50px 30px;
-}
+
 .abt-mission h4{
     font-size: 16px;
   }
@@ -1274,11 +1338,9 @@
     font-size: 18px;
 }
 .athena-frame .container h2 {
-    font-size: 42px;
+    font-size: 30px;
 }
-.athpic img, .wellpic img {
-    width: 100px;
-}
+
 .athena-frame{
     padding-bottom: 0px;
 }
@@ -1345,23 +1407,23 @@
     font-size: 15px;
 }
 .pb-name{
-    width: 300px;
+    width: 270px;
 }
 .text-danger{
     font-size: 13px;
     padding: 0px 10px;
 }
 .athena-banner img{
-    rotate: 15deg;
-    margin: 15px 0px
+    width: 300px;
 }
-.athena-banner , .athena-reason{
-    padding: 40px 0px;
+
+ .athena-reason{
+    padding: 40px 20px;
 }
-.athpic {
+/* .athpic {
     top: 4%;
     left: 20%;
-}
+} */
 .wellpic {
     right: 14%;
     top: 17%;

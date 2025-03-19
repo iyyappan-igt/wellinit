@@ -35,8 +35,8 @@ function Security() {
     <>
       <section className="secure-div">
         <div className="container-fluid">
-          <div className="row">
-            <div className="col-xl-5 col-lg-6 col-md-6 col-12">
+          <div className="row position-relative">
+            <div className="col-xl-6 col-lg-6 col-md-8 col-12">
               <div className="secure-content "
               data-aos="fade-right"
              data-aos-duration="1500">
@@ -52,7 +52,7 @@ function Security() {
                         <img src="\assets\tick.png" className="img-fluid" />
                       </div>
                       <div className="sc-data">
-                        <p className="m-0">98.4% Clean Claim Submission Rate</p>
+                        <p className="m-0">Control HOLD buckets below 10% of AR</p>
                       </div>
                     </div>
                     <div className="sc-types d-flex align-items-center gap-3">
@@ -61,7 +61,7 @@ function Security() {
                       </div>
                       <div className="sc-data">
                         <p className="m-0">
-                          15% Faster Payments with Online Patient Billing
+                        Reduce 90 + AR below 20% of Total AR
                         </p>
                       </div>
                     </div>
@@ -70,7 +70,25 @@ function Security() {
                         <img src="\assets\tick.png" className="img-fluid" />
                       </div>
                       <div className="sc-data">
-                        <p className="m-0">48% Higher Patient Pay Yield</p>
+                        <p className="m-0">Reach DAR below 30 days</p>
+                      </div>
+                    </div>
+
+                    <div className="sc-types d-flex align-items-center gap-3">
+                      <div className="sc-icon">
+                        <img src="\assets\tick.png" className="img-fluid" />
+                      </div>
+                      <div className="sc-data">
+                        <p className="m-0">Revenue Realization Rate above 99%</p>
+                      </div>
+                    </div>
+
+                    <div className="sc-types d-flex align-items-center gap-3">
+                      <div className="sc-icon">
+                        <img src="\assets\tick.png" className="img-fluid" />
+                      </div>
+                      <div className="sc-data">
+                        <p className="m-0">Reduction on denial rates & control front end scrubs efficiently.</p>
                       </div>
                     </div>
                   </div>
@@ -81,8 +99,13 @@ function Security() {
                 </div>
               </div>
             </div>
-            <div className="col-xl-7 col-lg-6 col-md-6 col-12 ">
-              <div className="mapimg">
+            <div className="col-xl-6 col-lg-6 col-md-4 col-12 ">
+              <div className="mapimg position-absolute d-md-block d-none">
+              <div className="athena text-center">
+                <img src="assets\athena.png" className="img-fluid" />
+              </div>
+              </div>
+              <div className="mapimg d-md-none d-block">
               <div className="athena text-center">
                 <img src="assets\athena.png" className="img-fluid" />
               </div>

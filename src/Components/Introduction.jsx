@@ -1,5 +1,6 @@
 import React from "react";
 import { Intro } from "../Constants/Intro";
+import { Link } from "react-router-dom";
 
 function Introduction() {
   return (
@@ -27,7 +28,7 @@ function Introduction() {
               <h2>{Intro.Subtitle}</h2>
               <p>{Intro.Description}</p>
               {/* <p>{Intro.Description2}</p> */}
-              <button className="btn">{Intro?.button}</button>
+             <Link to="/athena"> <button className="btn">{Intro?.button}</button></Link>
             </div>
            
             </div>

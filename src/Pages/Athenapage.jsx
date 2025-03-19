@@ -7,7 +7,8 @@ function Athenapage() {
     <section className="athpage">
       <div className="athena-frame ">
         <div className="container text-center">
-          <h4 data-aos="fade-left" data-aos-duration="1500">
+             <div className="athena-frame2">
+             <h4 data-aos="fade-left" data-aos-duration="1500">
             {Athena.banner[0]?.sub_title}
           </h4>
           <h2 data-aos="zoom-in" data-aos-duration="1500">
@@ -16,19 +17,23 @@ function Athenapage() {
           <p data-aos="fade-right" data-aos-duration="1500">
             {Athena.banner[0]?.description}
           </p>
+          <p data-aos="fade-right" data-aos-duration="1500">
+            {Athena.banner[0]?.description_2}
+          </p>
+             </div>
         </div>
       </div>
 
-      <div className="athena-main position-relative ">
-        <div className="athena-banner pt-xl-5 pt-lg-3">
+      <div className="athena-main">
+        <div className="athena-banner text-center">
           <img src={Athena.banner[0]?.image} className="img-fluid" />
         </div>
-        <div className="athpic">
+        {/* <div className="athpic">
           <img src={Athena?.banner[0]?.ath_img} className="img-fluid" />
         </div>
         <div className="wellpic">
           <img src={Athena?.banner[0]?.well_img} className="img-fluid" />
-        </div>
+        </div> */}
       </div>
 
 
@@ -71,6 +76,8 @@ function Athenapage() {
           >
             <h2>{Athena.modular[0]?.title}</h2>
             <p>{Athena.modular[0]?.description}</p>
+            <p>{Athena.modular[0]?.description_2}</p>
+            
           </div>
           <div className="ath-module">
             <div className="row">
@@ -86,7 +93,7 @@ function Athenapage() {
                         <div className="mo-point" key={i}>
                           <h5>
                             {" "}
-                            <span>{data?.id}.</span>
+                            <span className="px-2">{data?.id}.</span>
                             {data?.point}
                           </h5>
                         </div>
@@ -94,9 +101,12 @@ function Athenapage() {
                     })}
                   </div>
                 </div>
+                <div className="last-point">
+                  <p>And 15+ other tasks with Athenaone</p>
+                </div>
 
                 <div
-                  className="point-btn mt-xl-5 mt-lg-2 text-md-start text-center"
+                  className="point-btn mt-xl-4 mt-lg-3 text-md-start text-center"
                   data-aos="fade-right"
                   data-aos-duration="1500"
                 >
@@ -137,7 +147,7 @@ function Athenapage() {
                 <Link to="/contact">
                   {" "}
                   <button
-                    className="report-btn btn text-white mt-xl-5 mt-lg-2 "
+                    className="report-btn btn text-white mt-xl-4 mt-lg-3 "
                     data-aos="fade-right"
                     data-aos-duration="1500"
                   >
