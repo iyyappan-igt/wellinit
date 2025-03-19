@@ -10,11 +10,11 @@ export const Nav = {
             link : '/about'
         },
         {
-            name : 'Service',
+            name : 'Services',
             link : '/service'
         },
         {
-            name : 'Athena',
+            name : 'Athenaone',
             link : '/athena'
         },
         {

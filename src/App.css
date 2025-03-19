@@ -30,15 +30,17 @@ a{
 .nav-items h5{
   font-size: 16px;
   font-weight: 600;
+  width: 107px;
   margin: 0px;
+  text-align: center;
+  padding: 10px 0px;
   
 }
 .nav-links{
-  gap: 80px;
+  gap: 30px;
 }
 .active{
   background-color: #00A9E5 !important;
-  padding: 12px 20px;
   border-radius: 5px;
 }
 .active a{

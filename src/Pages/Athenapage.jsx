@@ -195,7 +195,7 @@ function Athenapage() {
             </div>
           </div>
           <div className="start-btn text-center d-flex justify-content-center" >
-            <button className="btn text-light">Start Today</button>
+            <Link to="/contact"><button className="btn text-light">Start Today</button></Link>
           </div>
         </div>
       </div>

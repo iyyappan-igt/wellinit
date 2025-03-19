@@ -2,14 +2,19 @@ import React from "react";
 import { footer } from "../Constants/Footer";
 import { Nav } from "../Constants/Nav";
 import { Link, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 function Footer() {
+
+ const { pathname } = useLocation()
 
 
   return (
     <section className="footer-sec">
       <div className="container-fluid">
-        <div className="footer-top">
+       {
+        pathname == '/contact' ? null : (
+          <div className="footer-top">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-12 p-0 text-light">
               <div className="footer-black position-relative h-100">
@@ -31,6 +36,8 @@ function Footer() {
             </div>
           </div>
         </div>
+        )
+       }
         <div className="footer-bottom">
           <div className="row">
             <div className="col-xl-4 col-lg-4 col-md-6 col-12">
@@ -51,8 +58,8 @@ function Footer() {
                     <div className="col-lg-6 col-md-6 col-6 d-flex justify-content-center d-md-block">
                       <div className="pagings ">
                        <Link to="/about"><h5>About Us</h5></Link>
-                       <Link to="/service"> <h5>Service</h5></Link>
-                        <h5>Compliance</h5>
+                       <Link to="/service"> <h5>Services</h5></Link>
+                        <Link to="/compliance"><h5>Compliance</h5></Link>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-6 d-flex justify-content-center d-md-block">

@@ -74,7 +74,7 @@ function Whychoose() {
       
         </div>
         <div className="choose-button text-center my-xl-5 my-lg-4  mt-4">
-               <Link to="/service"> <button className="btn">Learn More About Our Services</button></Link>
+               <Link to="/contact"> <button className="btn">Learn More About Our Services</button></Link>
         </div>
       </div>
     </section>
