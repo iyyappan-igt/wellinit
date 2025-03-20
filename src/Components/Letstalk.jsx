@@ -7,11 +7,28 @@ import { toast, ToastContainer } from "react-toastify";
 
 function Letstalk() {
   const schema = Yup.object().shape({
-    first_name: Yup.string().required("Enter First name"),
-    last_name: Yup.string().required("Enter Last name"),
-    email: Yup.string().required("Enter Email"),
-    mobile: Yup.string().required("Enter Mobile number"),
+
+    first_name: Yup.string()
+    .required("Enter First name")
+    .matches(/^[a-zA-Z]*$/, "Invalid name"),
+
+    last_name: Yup.string()
+    .required("Enter Last name")
+    .matches(/^[a-zA-Z]*$/, "Invalid name"),
+    
+    email: Yup.string().required("Enter Email")
+    .email("Enter Valid Email")
+    .test((value) => {
+      return value === value.toLocaleLowerCase();
+    }),
+
+    mobile: Yup.string().required("Enter Mobile number")
+    .min(10, "Invalid Mobile No")
+    .max(10, "Invalid Mobile No")
+    .matches(/^[0-9]+$/, "Invalid Mobile No"),
+
     menu: Yup.string().required("Select Menu"),
+
     message: Yup.string().required("Enter Message"),
   });
 
