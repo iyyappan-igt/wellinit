@@ -61,7 +61,7 @@ function Security() {
                       </div>
                       <div className="sc-data">
                         <p className="m-0">
-                        Reduce 90 + AR below 20% of Total AR
+                        Reduce Above 90 days AR to 15% of overall AR
                         </p>
                       </div>
                     </div>

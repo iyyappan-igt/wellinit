@@ -2,17 +2,17 @@ export const Athena  = {
     banner : [
         {
             // title : "With AthenaOne",
-           title: "Wellinit & Athenaone a Powerful partnership!",
+            title: "a Powerful partnership!",
             description : "Wellinit delivers specialized RCM solutions for AthenaOne providers across the USA. Our team of athenaone specialists has immersive experience working with athenahealth clinicals, collector, communicator for more than 100+ athenahealth clients.",
             description_2 : "Our experts can leverage athenahealth superior technology such as Claim cycle, Rule engine, Denial workflows, Case management & Reporting functions to achieve desired results.",
             image : "assets/athena-banner2.png",
-            ath_img : "assets/athena-img.png",
-            well_img : "assets/wellinit-img.png"
+            ath_img : "assets/athena_logo.png",
+            well_img : "assets/Brandlogo.png"
         }
     ] ,
     
     common_issues : [{
-        title : "Common Issues faced by practices" , 
+        title : "We know you are here for typical Revenue cycle challenges" , 
         points : [
             {
                 id : 1,
@@ -20,7 +20,7 @@ export const Athena  = {
             },
             {
                 id : 2,
-                issues : 'Staff attritions'
+                issues : 'Billing Staff attritions'
             },
             {
                 id : 3,
@@ -37,12 +37,10 @@ export const Athena  = {
             {
                 id : 6,
                 issues : 'Charge entry delay'
-            },
-            {
-                id : 7,
-                issues : 'Hesitant Outsourcing to vendor'
             }
-        ]
+        ],
+        button : "See how we can help!"
+
 
     }
 
@@ -53,8 +51,8 @@ export const Athena  = {
     ],
     modular : [
         {
-            title : 'AthenaOne Modular service',
-            description : 'Our AthenaOne team leverages athenaClinicals, athenaCollector, and athenaCommunicator to optimize workflows, enhance key performance indicators and ensure seamless internal operations for your practice. Our collective approach to issue tracking ensures efficient resolutions, while our weekly KPI reviews offer clear insights to monitor progress and performance.',
+            title : 'Modular service',
+            description : 'We acknowledge that every practice is distinct. Our solutions are tailored to meet the specific needs of your practice. Effective resolutions are guaranteed by our collaborative approach to issue tracking, and our weekly KPI reviews provide clear insight to monitor progress and performance.',
             description_2 : ' We offer AthenaOne expert staffing support for the following services with flexible engagement starting from just 2 hours per week, delivering up to 40% cost savings compared to the U.S. healthcare billing specialist market.',
             points : [
                 {
@@ -114,34 +112,35 @@ export const Athena  = {
                 },
                 {
                     id : 2,
-                    point : 'Reduce high stress & costs on inhouse operation',
+                    point : 'Reduce high stress & costs on inhouse operations',
                    icon : 'assets/p2.png'
                 },
                 {
                     id : 3,
-                    point : 'Dedicated Practice manager to manage daily tasks and adhoc requests efficiently.',
+                    point : 'Dedicated Practice manager addressing, tracking and solving billing issues & backlogs faster',
                    icon : 'assets/p3.png'
                 },
+         
                 {
                     id : 4,
-                    point : 'Integrated claim resolution tactics on denials related to Coding, Credentialing & Billing',
-                    icon : 'assets/p4.png'
-                },
-                {
-                    id : 5,
                     point : 'Weekly KPI and KRA reporting for continuous process improvement and performance monitoring.',
                     icon : 'assets/p5.png'
                 },
                 {
-                    id : 6,
+                    id : 5,
                     point : 'Evade from challenges in handling staff attrition, recruits & training, Employee benefits, insurance & shrinkages.',
                     icon : 'assets/p6.png'
                 },
 
                   {
-                    id : 7,
-                    point : 'Unified & collective efforts in addressing, tracking and solving billing issues & backlogs faster.',
+                    id : 6,
+                    point : 'Unified efforts in addressing, tracking and solving billing issues & backlogs faster.',
                     icon : 'assets/p7.png'
+                },
+                {
+                    id :7 ,
+                    point : 'Integrated claim resolution tactics on denials related to Coding, Credentialing & Billing',
+                    icon : 'assets/p4.png'
                 },
                 {
                     id : 8,
@@ -163,7 +162,7 @@ export const Athena  = {
     ],
     Reasons : [
         {
-            title : 'Reasons why we partner with athenaOne',
+            title : 'Reasons why we partner with',
             sub_title : 'An EHR system that meets you where you are now and grows with you as your practice and the healthcare regulatory and technological landscapes change.',
             reason_points : [
                 {

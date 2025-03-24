@@ -25,9 +25,14 @@ function Introduction() {
               data-aos-duration="1500"
             >
               <h5>{Intro.Title}</h5>
-              <h2>{Intro.Subtitle}</h2>
-              <p>{Intro.Description}</p>
-              {/* <p>{Intro.Description2}</p> */}
+              <p className="mb-3"><span>Wellinit</span> delivers specialized RCM staffing & consulting solutions for <span> athenaOne </span> providers across the <span> USA </span>.
+                 Our team of <span> athenaOne </span> specialists has extensive experience working with <span> athenaHealth clinicals, 
+                collectors, and communicators </span> for more than 100+ AthenaHealth clients over the past decade.</p>
+
+                <p>Our experts have a proven track record of successfully using <span> athenahealth's </span> superior technology, including 
+                 <span> Claim cycle, Rule engine, Denial workflows, Case management, and Reporting functions </span> to achieve their
+                 desired results.</p>
+           
              <Link to="/athena"> <button className="btn">{Intro?.button}</button></Link>
             </div>
            

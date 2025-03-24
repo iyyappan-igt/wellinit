@@ -12,9 +12,9 @@ export const Aboucontent = {
     whowe : [
         {
             title : "Who we are?",
-            sub_title : "Wellinit is established to provide efficient & result oriented Revenue cycle staffing and consulting support for all medical providers across U.S.A.",
-            content : "With flexible engagement starting from just 2 hours per week, delivering up to 40% cost savings compared to the U.S. healthcare billing specialist market.",
-            content_2 :" Our services are designed for rapid deployment with minimal onboarding time. We can train teams quickly, start with minimal work hours, and scale as needed. Whether it’s a short-term project, long-term engagement, or a comprehensive audit, we focus on key revenue areas to help practices achieve their financial goals efficiently."
+            sub_title : "The purpose of Wellinit Revenue Cycle Services LLC is to give medical providers across the U.S.A. efficient and result-oriented revenue cycle staffing and consulting support.",
+            content : "Starting at just a few hours per week, our flexible engagement can yield up to 40% cost savings compared to the U.S. Healthcare billing specialist market..",
+            content_2 :"Our services are designed to make deployment and onboarding quick and easy. We possess the capability to initiate and scale as needed quickly. Our approach involves prioritizing key revenue areas to assist practices in efficiently achieving their financial goals, whether it's a short-term project, long-term engagement, or a comprehensive audit."
         
         }
     ],
@@ -23,7 +23,8 @@ export const Aboucontent = {
         {
             title : "OUR MISSIONS",
             sub_title : "Transforming Medical Billing with Seamless Solutions",
-            content : "Our goal is to simplify medical billing, enhance key revenue metrics, and allow providers to focus on what matters most—exceptional patient care. Offering a stabilized billing experience, backed by a team of dedicated experts, we deliver innovative, accurate, and timely results. With a strong commitment to HIPAA compliance, we ensure top-tier security for protected health information (PHI).",
+            content : "Our objective is to streamline client billing settlements, improve crucial revenue metrics, and allow providers to concentrate on providing exceptional patient care.",
+            content_2 : "The stability of our billing expertise and the support of a team of dedicated experts allow us to deliver innovative, accurate, and timely results. We are committed to HIPAA compliance and ensure that Protected Health Information (PHI) is protected with top-tier security.",
             image : "/assets/mb.png"
         }
     ]

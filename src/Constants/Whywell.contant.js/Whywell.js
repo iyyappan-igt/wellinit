@@ -1,7 +1,7 @@
 export const wellinitData = {
     protect : {
         title : 'HIPAA: Protecting What Matters Most',
-        description : 'At Wellinit, safeguarding sensitive PHI information is at the heart of everything we do. We understand the critical importance of compliance with the Health Insurance Portability and Accountability Act (HIPAA) and its role in protecting the privacy, security, and integrity of Protected Health Information (PHI).',
+        description : 'At Wellinit, we prioritize safeguarding sensitive PHI information. We comprehend the significance of complying with HIPAA and its objective of safeguarding the privacy, security, and integrity of Protected Health Information (PHI).',
         button : 'Know more',
         image : 'assets/whywellinet.png'
     },
@@ -12,25 +12,25 @@ export const wellinitData = {
                 id : 1,
                 icon : 'assets/ww1.png',
                 title : 'Data Security',
-                content : 'We utilize advanced encryption, secure networks, and state-of-the-art technologies to ensure PHI is protected at all stages of the billing process.'
+                content : 'We protect PHI at all stages of the billing process by utilizing advanced encryption, secure networks, and state-of-the-art technologies.'
             },
             {
                 id : 2,
-                icon : 'assets/ww3.png',
+                icon : 'assets/ww2.png',
                 title : 'Privacy Controls',
-                content : 'Access to sensitive data is restricted to authorized personnel, and all data handling follows stringent confidentiality protocols.'
+                content : 'Access to sensitive data is limited to authorized personnel, and all data handling adheres to strict confidentiality protocols.'
             },
             {
                 id : 3,
                 icon : 'assets/ww3.png',
                 title : 'Team Training',
-                content : 'Every team member undergoes regular HIPAA compliance training to stay informed on the latest best practices and regulatory updates.'
+                content : 'To keep abreast of the latest best practices and regulatory updates, each team member receives regular HIPAA compliance training.'
             },
             {
                 id : 4,
-                icon : 'assets/ww3.png',
-                title : 'Risk Management',
-                content : 'We proactively identify and mitigate potential risks through rigorous monitoring, audits, and continuous improvement of our processes.'
+                icon : 'assets/ww4.png',
+                title : 'Proactive Risk Management',
+                content : 'Through rigorous monitoring, audits, and continuous process improvement, we actively identify and mitigate potential risks.'
             }
         ]
     }

@@ -10,24 +10,6 @@ function About() {
   return (
 
     <section>
-    {/* <div className="abt-contents">
-      <div className="conatiner-fluid">
-        <div className="abt-banner position-relative">
-          <div className="abt-frme">
-            <img src="\assets\about-banner.png" className="img-fluid" />
-          </div>
-          <div className="abt-curve position-absolute">
-            <img src="\assets\abtframe.png" className="img-fluid"/>
-          </div>
-          <div className="abtbanner-content position-absolute w-100 text-center" data-aos="fade-down" data-aos-duration="1500">
-
-            <h2>{Aboucontent?.Bannerframe[0]?.title}</h2>
-            <p>{Aboucontent?.Bannerframe[0]?.sub_title}</p>
-            <a href="#letstalk"><button className="btn">{Aboucontent?.Bannerframe[0]?.button}</button></a>
-          </div>
-        </div>
-      </div>
-    </div> */}
 
         <div className="abt-who ">
           <div className="container-fluid p-0 ">
@@ -61,6 +43,8 @@ function About() {
                          <h4 data-aos="zoom-in"  data-aos-duration="1500">{Aboucontent?.missions[0]?.title}</h4>
                          <h2 data-aos="fade-left"  data-aos-duration="1500">{Aboucontent?.missions[0]?.sub_title}</h2>
                          <p data-aos="fade-right"  data-aos-duration="1500">{Aboucontent?.missions[0]?.content}</p>
+                         <p data-aos="fade-right"  data-aos-duration="1500">{Aboucontent?.missions[0]?.content_2}</p>
+                         
                  </div>
                  <div className="mission-img text-center">
                   <img src={Aboucontent?.missions[0]?.image} className="img-fluid" data-aos="fade-up"  data-aos-duration="1500"/>
