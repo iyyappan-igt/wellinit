@@ -9,7 +9,7 @@ function Athenapage() {
         <div className="container text-center">
           <div className="athena-frame2">
             <div
-              className="d-flex align-items-center justify-content-center gap-xl-4 gap-3"
+              className="d-flex align-items-center justify-content-center gap-xl-4 gap-md-3 gap-2"
               data-aos="zoom-in"
               data-aos-duration="1500"
             >

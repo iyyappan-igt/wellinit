@@ -960,23 +960,19 @@
         margin: 16px 0px;
     }
     .atimg2 {
-        height: 25px;
+        height: 20px;
         width: 140px;
     }
     .ci-title h2 {
         padding-bottom: 0px;
     }
-
-
     .atimg1  {
         width: 85px;
     }
     .mdimg img{
         width: 180px;
     }
-    .athena-frame .container h2{
-        margin: 5px 0px;
-    }
+
     .brand-logo img{
         width: 113px;
         object-fit: contain;
@@ -1391,6 +1387,7 @@
 }
 .athena-frame .container h2 {
     font-size: 30px;
+    margin: 5px 0
 }
 
 .athena-frame{
@@ -1497,6 +1494,7 @@
     object-fit: cover;
     height: 450px;
 }
+
 .ct-form{
     top: 50px;
     left: 0px;
