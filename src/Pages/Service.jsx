@@ -17,14 +17,14 @@ function Service() {
       <div className="service-intro">
         <div className="container">
           <div className="service-name text-center">
-            <h2 data-aos="fade-left" data-aos-duration="1500">
+            <h2 data-aos="zoom-in" data-aos-duration="1500">
               {" "}
               {servicepage.service_intro[0]?.title}
             </h2>
             <p data-aos="fade-right" data-aos-duration="1500">
               {servicepage.service_intro[0]?.description}
             </p>
-            <p data-aos="fade-right" data-aos-duration="1500">
+            <p data-aos="fade-left" data-aos-duration="1500">
               {servicepage.service_intro[0]?.description_2}
             </p>
           </div>

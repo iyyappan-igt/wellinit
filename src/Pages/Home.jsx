@@ -13,6 +13,7 @@ import Footer from "../Components/Footer";
 import Securebanner from "../Components/Securebanner";
 import { ServiceData } from "../Constants/ServiceData";
 import { Athena } from "../Constants/Athena.contant.js/Athena";
+import { Link } from "react-router-dom";
 
 function Home() {
   const themecode = "#DEFFFB";
@@ -26,15 +27,6 @@ function Home() {
 
       <Introduction />
 
-      {/* <Whychoose /> */}
-
-      {/* <Ourservice
-        theme={themecode}
-        colorcode={fontcode}
-        servicess={ServiceData.Our_service}
-        iconbg={iconbgcode}
-        linkpage={link_name}
-      /> */}
 
       <Security />
 
@@ -70,11 +62,10 @@ function Home() {
           </div>
           <div className="ci-button d-flex justify-content-center mt-lg-5 mt-md-3"  data-aos="fade-up"
                   data-aos-duration="1500" >
-            <button className="btn text-light">{Athena.common_issues[0]?.button}</button>
+            <Link to="/contact"><button className="btn text-light">{Athena.common_issues[0]?.button}</button></Link>
           </div>
         </div>
       </div>
-
 
       <Securebanner />
 

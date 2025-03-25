@@ -5,7 +5,7 @@ function Blogs() {
   return (
     <section className="blog-sec">
       <div className="container">
-        <div className="blog-title text-center">
+        <div className="blog-title text-center" data-aos="zoom-in" data-aos-duration="1500" >
           <h2>See whats Happening through our blogs</h2>
         </div>
         <div className="blog-pic">
@@ -13,7 +13,8 @@ function Blogs() {
             {blogs.data.map((data) => {
               return (
                 <div className="col-lg-6 col-md-6 d-flex justify-content-center">
-                  <div className="blog-box">
+                  <div className="blog-box"      data-aos="fade-up"
+                  data-aos-duration="1500">
                     <div className="blog-img">
                       <img src={data?.blogs_img} className="img-fluid" />
                     </div>

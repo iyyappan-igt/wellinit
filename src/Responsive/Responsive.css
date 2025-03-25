@@ -956,6 +956,10 @@
 
 @media (width < 576px) {
 
+    .mission-img img  , .comp-title h2{
+        width: 460px;
+    }
+
     .intro-content h2{
         margin: 16px 0px;
     }
@@ -995,9 +999,7 @@
     .ticklogo img , .browntick img{
         width: 25px;
     }
-    .common-issue, .modular-service, .report-service {
-        padding: 50px 0px;
-    }
+
     .sub-img img {
         width: 94px !important;
         height: 47px !important;
@@ -1208,7 +1210,7 @@
         width: 100%;
         margin: 20px 0px;
     }
-    .blog-pic{
+    .blog-pic , .ar-title{
         margin: 0px;
     }
     .entry-form form{
@@ -1391,7 +1393,7 @@
 }
 
 .athena-frame{
-    padding-bottom: 0px;
+    padding: 30px 0px 0px 0px;
 }
 
 .ci-points {
@@ -1422,8 +1424,8 @@
 .report-img img, .mo-img img {
     width: 300px;
 }
-.service-partner, .service-intro , .compherensive{
-    padding: 40px 0px;
+.service-partner, .service-intro , .compherensive , .common-issue, .modular-service, .report-service , .protect-well {
+    padding: 40px 10px;
     margin: 0px;
 }
 .service-partner , .compherensive{
@@ -1435,6 +1437,9 @@
 
 .service-intro p , .ar-title p{
     font-size: 16px;
+}
+.ar-title p{
+    margin: 30px 0px 20px 0px;
 }
 
 

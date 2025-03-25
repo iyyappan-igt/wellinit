@@ -171,8 +171,8 @@ function Athenapage() {
 
       <div className="athena-reason bg-light">
         <div className="container">
-          <div className="ar-title text-center">
-                <div className="d-md-flex d-block align-items-center gap-3 justify-content-center">
+          <div className="ar-title text-center" data-aos="zoom-in" data-aos-duration="1500">
+                <div className="d-md-flex d-block align-items-center gap-3 justify-content-center" >
                 <h2 className="m-0">{Athena.Reasons[0]?.title}</h2>
                 <div className="mdimg">
                   <img src={Athena.banner[0]?.ath_img} className="img-fluid" />
@@ -188,7 +188,8 @@ function Athenapage() {
               {Athena.Reasons[0]?.reason_points.map((data, i) => {
                 return (
                   <div className="col-lg-6 col-md-6 ar">
-                    <div className="ci-points d-flex align-items-center  gap-md-4 gap-3 my-md-3 my-2">
+                    <div className="ci-points d-flex align-items-center  gap-md-4 gap-3 my-md-3 my-2"      data-aos="fade-up"
+                  data-aos-duration="1500">
                       <div className="ticklogo">
                         <img
                           src="assets\reason-tick.png"
@@ -204,7 +205,8 @@ function Athenapage() {
               })}
             </div>
           </div>
-          <div className="start-btn text-center d-md-flex justify-content-center">
+          <div className="start-btn text-center d-md-flex justify-content-center"      data-aos="fade-up"
+                  data-aos-duration="1500">
             <Link to="/contact">
               <button className="btn text-light">Start Today</button>
             </Link>
